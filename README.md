@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c4df,100:8b5cf6&height=200&section=header&text=Mrinal%20Singh%20Raja&fontSize=46&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Founder%20%40%20MSRX%20%E2%80%94%20iOS%20%26%20macOS%20Developer&descAlignY=58&descSize=17&descColor=e0f2ff" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c4df,100:8b5cf6&height=200&section=header&text=Mrinal%20Singh%20Raja&fontSize=46&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=iOS%20%26%20macOS%20Developer%20%7C%20Building%20apps%20as%20a%20side%20passion&descAlignY=58&descSize=17&descColor=e0f2ff" width="100%" />
 
 <br/>
 
@@ -19,14 +19,14 @@
 
 ## 👋 About Me
 
-I'm the founder of **[MSRX](https://msrx.co.in)** — a software company building premium productivity, security, and utility apps for Apple platforms and the web.
+Outside of work, I build apps under the **[MSRX](https://msrx.co.in)** brand — productivity, security & utility tools for iOS, macOS, and the web.
 
 I believe great software should be **powerful without complexity** — elegant tools that just work, for everyone.
 
-- 🏢 **Founder & Developer** at [MSRX](https://msrx.co.in)
-- 📱 **10+ apps** live on the iOS & Mac App Store
-- 🛠️ **Currently:** [PulseNet](https://pulsenet.msrx.co.in) — AI network intelligence web platform
-- 🤖 Building with AI: Groq, Anthropic Claude, SwiftUI
+- 🛠️ **Side projects:** [MSRX](https://msrx.co.in) — iOS, macOS & web apps
+- 📱 **10+ apps** on the iOS & Mac App Store
+- 🔭 **Currently building:** [PulseNet](https://pulsenet.msrx.co.in) — AI network intelligence platform
+- 🤖 Building with: Swift, SwiftUI, Groq, Anthropic Claude
 - 📍 Bengaluru, India
 
 ---
