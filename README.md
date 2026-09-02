@@ -10,6 +10,18 @@ Software engineer in Bengaluru. I build these because I enjoy building them — 
 
 ### Web — 12 apps, free, no install
 
+<p align="center">
+  <a href="https://www.msrx.co.in"><img src="apps/portal.jpg" width="760" alt="The MSRX catalog — twenty-one apps, open one and start"></a>
+</p>
+<p align="center"><sub>The catalog — <a href="https://www.msrx.co.in">www.msrx.co.in</a></sub></p>
+
+|  |  |  |
+|:--:|:--:|:--:|
+| <a href="https://tools.msrx.co.in"><img src="apps/tools.jpg" width="270" alt="MSRX Tools — 116 tools, nothing uploaded"></a><br><a href="https://tools.msrx.co.in"><b>MSRX Tools</b></a><br><sub>116 tools, nothing uploaded</sub> | <a href="https://lab.msrx.co.in"><img src="apps/lab.jpg" width="270" alt="JEE HyperLab — 204 live PCM simulations"></a><br><a href="https://lab.msrx.co.in"><b>JEE HyperLab</b></a><br><sub>204 live PCM simulations</sub> | <a href="https://story.msrx.co.in"><img src="apps/story.jpg" width="270" alt="MSRX StoryQuest — 222 STEM missions, classes 1–10"></a><br><a href="https://story.msrx.co.in"><b>MSRX StoryQuest</b></a><br><sub>222 STEM missions, classes 1–10</sub> |
+| <a href="https://planner.msrx.co.in"><img src="apps/planner.jpg" width="270" alt="MSRX Planner — A student workspace that plans the week"></a><br><a href="https://planner.msrx.co.in"><b>MSRX Planner</b></a><br><sub>A student workspace that plans the week</sub> | <a href="https://weather.msrx.co.in"><img src="apps/weather.jpg" width="270" alt="MSRX WeatherWatch — 15 hazard engines behind one API"></a><br><a href="https://weather.msrx.co.in"><b>MSRX WeatherWatch</b></a><br><sub>15 hazard engines behind one API</sub> | <a href="https://pulsenet.msrx.co.in"><img src="apps/pulsenet.jpg" width="270" alt="OrionPulseNet — Speed tests and 16 network tools"></a><br><a href="https://pulsenet.msrx.co.in"><b>OrionPulseNet</b></a><br><sub>Speed tests and 16 network tools</sub> |
+| <a href="https://cv.msrx.co.in"><img src="apps/cv.jpg" width="270" alt="IncognitoCV — Score a CV without uploading it"></a><br><a href="https://cv.msrx.co.in"><b>IncognitoCV</b></a><br><sub>Score a CV without uploading it</sub> | <a href="https://graph.msrx.co.in"><img src="apps/graphiq.jpg" width="270" alt="MSRX GraphIQ — Spreadsheet in, 2D and 3D charts out"></a><br><a href="https://graph.msrx.co.in"><b>MSRX GraphIQ</b></a><br><sub>Spreadsheet in, 2D and 3D charts out</sub> | <a href="https://canvas.msrx.co.in"><img src="apps/canvasiq.jpg" width="270" alt="MSRX CanvasIQ — Draw it flat, stand it up"></a><br><a href="https://canvas.msrx.co.in"><b>MSRX CanvasIQ</b></a><br><sub>Draw it flat, stand it up</sub> |
+| <a href="https://qr.msrx.co.in"><img src="apps/qrstudio.jpg" width="270" alt="MSRX QR Studio — QR codes with scan-health scoring"></a><br><a href="https://qr.msrx.co.in"><b>MSRX QR Studio</b></a><br><sub>QR codes with scan-health scoring</sub> | <a href="https://meeting.msrx.co.in"><img src="apps/meeting.jpg" width="270" alt="MSRX Meeting — Encrypted rooms, no server in the middle"></a><br><a href="https://meeting.msrx.co.in"><b>MSRX Meeting</b></a><br><sub>Encrypted rooms, no server in the middle</sub> | <a href="https://gantt.msrx.co.in"><img src="apps/gantt.jpg" width="270" alt="Easy-Peasy Gantt — One schedule, no platform to adopt"></a><br><a href="https://gantt.msrx.co.in"><b>Easy-Peasy Gantt</b></a><br><sub>One schedule, no platform to adopt</sub> |
+
 | App | What it does |
 |---|---|
 | **[MSRX Tools](https://tools.msrx.co.in)** | 116 file, image and text tools — merge PDFs, convert images, zip archives, encrypt a file. Every one runs inside your browser, so nothing is ever uploaded. |
@@ -41,6 +53,10 @@ Canvas AI runs its inference on-device through Apple's Foundation Models and Vis
 ---
 
 ### Community and client work
+
+<p align="center">
+  <a href="https://library.msrx.co.in"><img src="apps/library.jpg" width="760" alt="Mana Jardin Children's Library — a free library, right here in Mana Jardin"></a>
+</p>
 
 **[Mana Jardin Children's Library](https://library.msrx.co.in)** — a full library platform built and running for a real community of young readers. Memberships and lending, a public catalogue with reader reviews and moderation, a donor register, visiting hours, a notice board, and an AI librarian that recommends only from books the library actually owns. Role-based access throughout, retention controls that erase fields rather than rows, and its own privacy, terms and accessibility pages. Reader records and safeguarding drove most of the design decisions. The source is open: [github.com/mrinalsinghraja/community-library](https://github.com/mrinalsinghraja/community-library).
 
