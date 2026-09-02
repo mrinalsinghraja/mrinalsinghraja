@@ -40,11 +40,13 @@ Canvas AI runs its inference on-device through Apple's Foundation Models and Vis
 
 ---
 
-### Community work
+### Community and client work
 
 **[Mana Jardin Children's Library](https://library.msrx.co.in)** — a full library platform built and running for a real community of young readers. Memberships and lending, a public catalogue with reader reviews and moderation, a donor register, visiting hours, a notice board, and an AI librarian that recommends only from books the library actually owns. Role-based access throughout, retention controls that erase fields rather than rows, and its own privacy, terms and accessibility pages. Reader records and safeguarding drove most of the design decisions. The source is open: [github.com/mrinalsinghraja/community-library](https://github.com/mrinalsinghraja/community-library).
 
 **[Assam Association Bangalore](https://assamassociationbangalore.org)** — the website of the registered socio-cultural association of the Assamese community in Bengaluru.
+
+**[Chinaki](https://www.chinaki.co.in)** — a digital service centre in Nagaon, Assam: GST and trade licences, factory and labour licences, tax filings, and student and employee paperwork. Seven service families and 39 services, each with a page of its own. Designed and built end to end; the owner runs and deploys it himself. The source is open: [github.com/mrinalsinghraja/chinaki](https://github.com/mrinalsinghraja/chinaki).
 
 ---
 
