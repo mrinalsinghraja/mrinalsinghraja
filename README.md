@@ -14,7 +14,7 @@ Independent software engineer in Bengaluru. I design, build and ship production 
 |---|---|
 | **[MSRX Tools](https://tools.msrx.co.in)** | 116 file, image and text tools — merge PDFs, convert images, zip archives, encrypt a file. Every one runs inside your browser, so nothing is ever uploaded. |
 | **[JEE HyperLab](https://lab.msrx.co.in)** | 204 interactive Physics, Chemistry and Maths simulations for IIT-JEE. Each is its own engine, not a template with swapped constants. |
-| **[MSRX StoryQuest](https://story.msrx.co.in)** | 202 STEM missions for classes 1–10 where the answer is solved from a real equation, never authored to fit the story. |
+| **[MSRX StoryQuest](https://story.msrx.co.in)** | 222 STEM missions for classes 1–10 where the answer is solved from a real equation, never authored to fit the story. |
 | **[MSRX Planner](https://planner.msrx.co.in)** | An academic workspace that plans the week with the student. Offline-first — writes queue locally and reconcile on reconnect. |
 | **[MSRX WeatherWatch](https://weather.msrx.co.in)** | Forecasts plus 15 independent hazard engines behind one API, with an assistant that answers in 14 languages. |
 | **[OrionPulseNet](https://pulsenet.msrx.co.in)** | Speed tests, 16 network diagnostics and a copilot that reads the results. Also ships as a Mac app. |
