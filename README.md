@@ -1,6 +1,6 @@
 ## Mrinal Singh Raja
 
-Independent software engineer in Bengaluru. I design, build and ship production software on my own — 21 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
+Software engineer in Bengaluru, with a full-time job. Everything here is built in my own time, because I like building it — 21 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
 
 **Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 11 of the 12 web apps do not ask for an account either — open one in a private window and it works.
 
@@ -63,6 +63,10 @@ Use the platform's own frameworks. Keep the number of moving parts low. Model ac
 
 ### Open to
 
-Consulting, contract work, and full-time roles where the job is to own something end to end. If you have a product stuck between prototype and shipped, that is the part I am good at.
+Collaboration, community projects, and helping someone who is stuck.
+
+None of this is for money. There is no paid tier anywhere in it, no consulting behind it and nothing to upgrade to — I have a full-time job, and I build these because I enjoy building them. The good part is when someone else gets some use out of one.
+
+If you are putting something together for a school, a library, an association or a neighbourhood, that is the kind of thing I will make time for.
 
 **[mrinalsinghraja@gmail.com](mailto:mrinalsinghraja@gmail.com)**
