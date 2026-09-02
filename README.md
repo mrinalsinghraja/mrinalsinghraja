@@ -1,6 +1,6 @@
 ## Mrinal Singh Raja
 
-Software engineer in Bengaluru, with a full-time job. Everything here is built in my own time, because I like building it — 21 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
+Software engineer in Bengaluru. I build these because I enjoy building them — 21 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
 
 **Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 11 of the 12 web apps do not ask for an account either — open one in a private window and it works.
 
@@ -65,8 +65,16 @@ Use the platform's own frameworks. Keep the number of moving parts low. Model ac
 
 Collaboration, community projects, and helping someone who is stuck.
 
-None of this is for money. There is no paid tier anywhere in it, no consulting behind it and nothing to upgrade to — I have a full-time job, and I build these because I enjoy building them. The good part is when someone else gets some use out of one.
+None of this is for money. There is no paid tier anywhere in it, no consulting behind it and nothing to upgrade to. I build because I enjoy it, and the good part is when someone else gets some use out of one.
 
 If you are putting something together for a school, a library, an association or a neighbourhood, that is the kind of thing I will make time for.
+
+---
+
+### Is there one that should exist?
+
+Nearly everything here began as a gap — something I went looking for, could not find, and ended up writing. So if there is a tool you keep reaching for that does not exist, describe it to me.
+
+A genuinely useful idea is the scarce part. The building is the half I enjoy, and I would happily take it on.
 
 **[mrinalsinghraja@gmail.com](mailto:mrinalsinghraja@gmail.com)**
