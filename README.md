@@ -62,7 +62,7 @@ Canvas AI runs its inference on-device through Apple's Foundation Models and Vis
 
 **[Assam Association Bangalore](https://assamassociationbangalore.org)** — the website of the registered socio-cultural association of the Assamese community in Bengaluru.
 
-**[Chinaki](https://www.chinaki.co.in)** — a digital service centre in Nagaon, Assam: GST and trade licences, factory and labour licences, tax filings, and student and employee paperwork. Seven service families and 39 services, each with a page of its own. Designed and built end to end; the owner runs and deploys it himself. The source is open: [github.com/mrinalsinghraja/chinaki](https://github.com/mrinalsinghraja/chinaki).
+**[Chinaki](https://www.chinaki.co.in)** — a digital service centre in Nagaon, Assam: GST and trade licences, factory and labour licences, tax filings, and student and employee paperwork. Seven service families and 39 services, each with a page of its own. Designed and built end to end; the owner runs and deploys it himself.
 
 ---
 
