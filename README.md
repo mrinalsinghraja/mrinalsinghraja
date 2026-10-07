@@ -1,17 +1,17 @@
 ## Mrinal Singh Raja
 
-Software engineer in Bengaluru. I build these because I enjoy building them — 23 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
+Software engineer in Bengaluru. I build these because I enjoy building them — 24 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
 
-**Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 13 of the 14 web apps do not ask for an account either — open one in a private window and it works.
+**Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 14 of the 15 web apps do not ask for an account either — open one in a private window and it works.
 
 **[mrinalsinghraja.github.io](https://mrinalsinghraja.github.io)** · [Full catalogue](https://www.msrx.co.in) · [App Store](https://apps.apple.com/us/developer/mrinal-singh-raja/id1879524280) · [mrinalsinghraja@gmail.com](mailto:mrinalsinghraja@gmail.com)
 
 ---
 
-### Web — 14 apps, free, no install
+### Web — 15 apps, free, no install
 
 <p align="center">
-  <a href="https://www.msrx.co.in"><img src="apps/portal.jpg" width="760" alt="The MSRX catalog — twenty-three apps, open one and start"></a>
+  <a href="https://www.msrx.co.in"><img src="apps/portal.jpg" width="760" alt="The MSRX catalog — twenty-four apps, open one and start"></a>
 </p>
 <p align="center"><sub>The catalog — <a href="https://www.msrx.co.in">www.msrx.co.in</a></sub></p>
 
@@ -21,7 +21,7 @@ Software engineer in Bengaluru. I build these because I enjoy building them — 
 | <a href="https://story.msrx.co.in"><img src="apps/story.jpg" width="270" alt="MSRX StoryQuest — 222 STEM missions with Ask AI and Quiz me"></a><br><a href="https://story.msrx.co.in"><b>MSRX StoryQuest</b></a><br><sub>222 STEM missions with Ask AI and Quiz me</sub> | <a href="https://planner.msrx.co.in"><img src="apps/planner.jpg" width="270" alt="MSRX Planner — A student workspace that plans the week"></a><br><a href="https://planner.msrx.co.in"><b>MSRX Planner</b></a><br><sub>A student workspace that plans the week</sub> | <a href="https://weather.msrx.co.in"><img src="apps/weather.jpg" width="270" alt="MSRX WeatherWatch — 15 hazard engines behind one API"></a><br><a href="https://weather.msrx.co.in"><b>MSRX WeatherWatch</b></a><br><sub>15 hazard engines behind one API</sub> |
 | <a href="https://pulsenet.msrx.co.in"><img src="apps/pulsenet.jpg" width="270" alt="OrionPulseNet — Speed tests and 16 network tools"></a><br><a href="https://pulsenet.msrx.co.in"><b>OrionPulseNet</b></a><br><sub>Speed tests and 16 network tools</sub> | <a href="https://cv.msrx.co.in"><img src="apps/cv.jpg" width="270" alt="IncognitoCV — Score a CV without uploading it"></a><br><a href="https://cv.msrx.co.in"><b>IncognitoCV</b></a><br><sub>Score a CV without uploading it</sub> | <a href="https://graph.msrx.co.in"><img src="apps/graphiq.jpg" width="270" alt="MSRX GraphIQ — Spreadsheet in, 2D and 3D charts out"></a><br><a href="https://graph.msrx.co.in"><b>MSRX GraphIQ</b></a><br><sub>Spreadsheet in, 2D and 3D charts out</sub> |
 | <a href="https://canvas.msrx.co.in"><img src="apps/canvasiq.jpg" width="270" alt="MSRX CanvasIQ — Paint mode, with 2D and 3D beside it"></a><br><a href="https://canvas.msrx.co.in"><b>MSRX CanvasIQ</b></a><br><sub>Paint, draw, then stand it up in 3D</sub> | <a href="https://qr.msrx.co.in"><img src="apps/qrstudio.jpg" width="270" alt="MSRX QR Studio — QR codes with scan-health scoring"></a><br><a href="https://qr.msrx.co.in"><b>MSRX QR Studio</b></a><br><sub>QR codes with scan-health scoring</sub> | <a href="https://meeting.msrx.co.in"><img src="apps/meeting.jpg" width="270" alt="MSRX Meeting — Encrypted rooms, no server in the middle"></a><br><a href="https://meeting.msrx.co.in"><b>MSRX Meeting</b></a><br><sub>Encrypted rooms, no server in the middle</sub> |
-| <a href="https://gantt.msrx.co.in"><img src="apps/gantt.jpg" width="270" alt="Easy-Peasy Gantt — One schedule, no platform to adopt"></a><br><a href="https://gantt.msrx.co.in"><b>Easy-Peasy Gantt</b></a><br><sub>One schedule, no platform to adopt</sub> | <a href="https://upi.msrx.co.in"><img src="apps/upi.jpg" width="270" alt="MSRX UPI Desk — 22 UPI tools in 22 Indian languages"></a><br><a href="https://upi.msrx.co.in"><b>MSRX UPI Desk</b></a><br><sub>22 UPI tools in 22 Indian languages</sub> |  |
+| <a href="https://gantt.msrx.co.in"><img src="apps/gantt.jpg" width="270" alt="Easy-Peasy Gantt — One schedule, no platform to adopt"></a><br><a href="https://gantt.msrx.co.in"><b>Easy-Peasy Gantt</b></a><br><sub>One schedule, no platform to adopt</sub> | <a href="https://upi.msrx.co.in"><img src="apps/upi.jpg" width="270" alt="MSRX UPI Desk — 22 UPI tools in 22 Indian languages"></a><br><a href="https://upi.msrx.co.in"><b>MSRX UPI Desk</b></a><br><sub>22 UPI tools in 22 Indian languages</sub> | <a href="https://invoice.msrx.co.in"><img src="apps/invoice.jpg" width="270" alt="MSRX Invoice — 38 invoice templates, nothing saved"></a><br><a href="https://invoice.msrx.co.in"><b>MSRX Invoice</b></a><br><sub>38 invoice templates, nothing saved</sub> |
 
 | App | What it does |
 |---|---|
@@ -38,6 +38,7 @@ Software engineer in Bengaluru. I build these because I enjoy building them — 
 | **[MSRX CanvasIQ](https://canvas.msrx.co.in)** | A classic Paint-style pixel editor, 2D vector drawing and diagrams, and 3D modelling with an AI copilot, in the browser. Paint mode has selections, nine brushes, fill, text and export to PNG, JPEG, GIF, BMP, TIFF, WebP and PDF. |
 | **[MSRX UPI Desk](https://upi.msrx.co.in)** | 22 tools for the jobs around a UPI payment — payment QRs, pay links, a till, udhaar reminders, GST invoices and a scam check — in English and all 22 scheduled Indian languages. No account, works offline, never moves money. |
 | **[MSRX QR Studio](https://qr.msrx.co.in)** | 21 QR types with gradients and logos, plus scan-health scoring that catches codes which would fail in the real world. |
+| **[MSRX Invoice](https://invoice.msrx.co.in)** | Invoices, quotes, receipts, proforma invoices, credit notes and purchase orders from 38 templates. Add your logo, GSTIN/PAN and other registration details, and download as PDF, PNG, JPG and more. Nothing is saved or uploaded; an optional Ask AI box fills a document from plain words. |
 | **[Easy-Peasy Gantt](https://gantt.msrx.co.in)** | One presentation-ready schedule without adopting a project-management platform. Single file, no framework. |
 
 ### macOS — 6 native apps, free on the Mac App Store
