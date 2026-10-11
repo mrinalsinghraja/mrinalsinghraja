@@ -68,6 +68,8 @@ Canvas AI runs its inference on-device through Apple's Foundation Models and Vis
 
 **[Chinaki](https://www.chinaki.co.in)** — a digital service centre in Nagaon, Assam: GST and trade licences, factory and labour licences, tax filings, and student and employee paperwork. Seven service families and 39 services, each with a page of its own. Designed and built end to end; the owner runs and deploys it himself.
 
+**[Jal Kavach Waterproofing](https://jalkavach.msrx.co.in)** — a social responsibility project: a website for a one-person waterproofing business serving all of Bangalore, built so a small trade can be found and get enquiries. A three-question leak finder that sends the customer's answers straight to WhatsApp, a page for every service and nearby area, plain-language guides, and no invented prices or claims. Static, no tracking, nothing stored.
+
 ---
 
 ### Stack
