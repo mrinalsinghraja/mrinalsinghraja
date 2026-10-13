@@ -38,7 +38,7 @@ Software engineer in Bengaluru. I build these because I enjoy building them — 
 | **[MSRX CanvasIQ](https://canvas.msrx.co.in)** | A classic Paint-style pixel editor, 2D vector drawing and diagrams, and 3D modelling with an AI copilot, in the browser. Paint mode has selections, nine brushes, fill, text and export to PNG, JPEG, GIF, BMP, TIFF, WebP and PDF. |
 | **[MSRX UPI Desk](https://upi.msrx.co.in)** | 22 tools for the jobs around a UPI payment — payment QRs, pay links, a till, udhaar reminders, GST invoices and a scam check — in English and all 22 scheduled Indian languages. No account, works offline, never moves money. |
 | **[MSRX QR Studio](https://qr.msrx.co.in)** | 21 QR types with gradients and logos, plus scan-health scoring that catches codes which would fail in the real world. |
-| **[MSRX Invoice](https://invoice.msrx.co.in)** | Invoices, quotes, receipts, proforma invoices, credit notes and purchase orders from 38 templates. Add your logo, GSTIN/PAN and other registration details, and download as PDF, PNG, JPG and more. Nothing is saved or uploaded; an optional Ask AI box fills a document from plain words. |
+| **[MSRX Invoice](https://invoice.msrx.co.in)** | Invoices, quotes, receipts, proforma invoices, credit notes and purchase orders from 38 templates. Add your logo, GSTIN/PAN and other registration details, and download as PDF, PNG, JPG and more. Nothing is saved or uploaded; an optional Ask AI box fills a document from plain words. [Step-by-step guide with screenshots](https://invoice.msrx.co.in/guide). |
 | **[Easy-Peasy Gantt](https://gantt.msrx.co.in)** | One presentation-ready schedule without adopting a project-management platform. Single file, no framework. |
 
 ### macOS — 6 native apps, free on the Mac App Store
