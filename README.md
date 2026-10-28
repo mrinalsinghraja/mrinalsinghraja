@@ -1,12 +1,12 @@
 <a href="https://www.msrx.co.in">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
-    <img src="assets/banner-light.webp" width="100%" alt="MSRX · Future. Intelligence. Impact. Mrinal Singh Raja: 27 free apps for the web, Mac and iPhone. No paid tier, anywhere. Most need no sign-up.">
+    <img src="assets/banner-light.webp" width="100%" alt="MSRX · Future. Intelligence. Impact. Mrinal Singh Raja: 28 free apps for the web, Mac and iPhone. No paid tier, anywhere. Most need no sign-up.">
   </picture>
 </a>
 
 <p align="center">
-  <a href="https://www.msrx.co.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-catalog-dark.webp"><img src="assets/btn-catalog-light.webp" height="42" alt="Open all 27 apps"></picture></a>
+  <a href="https://www.msrx.co.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-catalog-dark.webp"><img src="assets/btn-catalog-light.webp" height="42" alt="Open all 28 apps"></picture></a>
   <a href="https://www.msrx.co.in/launcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-launcher-dark.webp"><img src="assets/btn-launcher-light.webp" height="42" alt="Install the launcher"></picture></a>
   <a href="https://apps.apple.com/us/developer/mrinal-singh-raja/id1879524280"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-appstore-dark.webp"><img src="assets/btn-appstore-light.webp" height="42" alt="App Store"></picture></a>
   <a href="https://mrinalsinghraja.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.webp"><img src="assets/btn-portfolio-light.webp" height="42" alt="Portfolio"></picture></a>
@@ -24,17 +24,17 @@
   <a href="#say-hello">Say hello</a>
 </p>
 
-Software engineer in Bengaluru. I build these because I enjoy building them: 27 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
+Software engineer in Bengaluru. I build these because I enjoy building them: 28 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
 
-**Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 17 of the 18 web apps do not ask for an account either. Open one in a private window and it works.
+**Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 18 of the 19 web apps do not ask for an account either. Open one in a private window and it works.
 
 **Fastest way in:** open **[www.msrx.co.in/launcher](https://www.msrx.co.in/launcher)** and tap **Install MSRX** (on iPhone: Share → Add to Home Screen). One icon, every app.
 
 <p align="center">
-  <a href="https://www.msrx.co.in"><img src="assets/cards/portal.webp" width="840" alt="The MSRX catalog at www.msrx.co.in: all 27 apps in one place, with search across apps and 238 tools"></a>
+  <a href="https://www.msrx.co.in"><img src="assets/cards/portal.webp" width="840" alt="The MSRX catalog at www.msrx.co.in: all 28 apps in one place, with search across apps and 238 tools"></a>
 </p>
 
-<h2 id="web">Web <sub>· 18 apps, free, no install</sub></h2>
+<h2 id="web">Web <sub>· 19 apps, free, no install</sub></h2>
 
 Every card opens the app. Grouped the same way as the catalog.
 
@@ -52,13 +52,14 @@ Every card opens the app. Grouped the same way as the catalog.
   <a href="https://canvas.msrx.co.in"><img src="assets/cards/canvasiq.webp" width="272" alt="MSRX CanvasIQ: paint, vector drawing and 3D with an AI copilot"></a>
   <a href="https://qr.msrx.co.in"><img src="assets/cards/qr-studio.webp" width="272" alt="MSRX QR Studio: 22 QR types with gradients, logos and scan-health scoring"></a>
 </p>
-<h4 align="center">Work <sub>· 4</sub></h4>
+<h4 align="center">Work <sub>· 5</sub></h4>
 <p align="center"><sub>Meetings, timelines and the CV you are about to send.</sub></p>
 <p align="center">
   <a href="https://invoice.msrx.co.in"><img src="assets/cards/invoice.webp" width="272" alt="MSRX Invoice: 39 invoice templates, export to PDF, PNG and more, nothing saved"></a>
   <a href="https://meeting.msrx.co.in"><img src="assets/cards/meeting.webp" width="272" alt="MSRX Meeting: encrypted video rooms with real-time captions"></a>
   <a href="https://cv.msrx.co.in"><img src="assets/cards/incognitocv.webp" width="272" alt="IncognitoCV: score your CV against a job posting without uploading it"></a>
   <a href="https://gantt.msrx.co.in"><img src="assets/cards/easy-peasy-gantt.webp" width="272" alt="Easy-Peasy Gantt: presentation-ready Gantt charts in seconds"></a>
+  <a href="https://security.msrx.co.in"><img src="assets/cards/security.webp" width="272" alt="MSRX Security: scan any website and get a SWOT security report scored out of 10"></a>
 </p>
 <h4 align="center">Everyday <sub>· 8</sub></h4>
 <p align="center"><sub>The small tools you reach for and then forget about.</sub></p>
@@ -95,6 +96,7 @@ Every card opens the app. Grouped the same way as the catalog.
 | **[MSRX UPI Desk](https://upi.msrx.co.in)** | 22 tools for the jobs around a UPI payment: payment QRs, pay links, a till, udhaar reminders, GST invoices and a scam check, in English and all 22 scheduled Indian languages. No account, works offline, never moves money. |
 | **[MSRX QR Studio](https://qr.msrx.co.in)** | 22 QR types with gradients, logos, 33 frames and 32 editable templates, plus scan-health scoring that catches codes which would fail in the real world. |
 | **[MSRX Invoice](https://invoice.msrx.co.in)** | Invoices, quotes, receipts, proforma invoices, credit notes and purchase orders from 39 templates. Add your logo, GSTIN/PAN and other registration details, and download as PDF, PNG, JPG and more. Nothing is saved or uploaded; an optional Ask AI box fills a document from plain words. [Step-by-step guide with screenshots](https://invoice.msrx.co.in/guide). |
+| **[MSRX Security](https://security.msrx.co.in)** | Paste a website address and get a security report scored out of 10, split into strengths, weaknesses, opportunities and threats, with a plain-English fix for each finding. Checks HTTPS, the certificate, headers, cookies, scripts, email-spoofing records and the past year's exploited CVEs, php2shell included, and never sends attack payloads. Plus 13 tools for passwords, phishing links, JWTs and leaked secrets. [Step-by-step guide with screenshots](https://security.msrx.co.in/guide). |
 | **[Easy-Peasy Gantt](https://gantt.msrx.co.in)** | One presentation-ready schedule without adopting a project-management platform. Single file, no framework. |
 
 </details>

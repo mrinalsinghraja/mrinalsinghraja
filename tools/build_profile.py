@@ -182,6 +182,7 @@ WEB = [
     ("work", "meeting", "MSRX Meeting", "MM", "#2563EB", "meeting.msrx.co.in", "Encrypted rooms with live captions", "meeting.png"),
     ("work", "incognitocv", "IncognitoCV", "IC", "#8A5F1C", "cv.msrx.co.in", "Score a CV without uploading it", "cv.png"),
     ("work", "easy-peasy-gantt", "Easy-Peasy Gantt", "EG", "#4F46E5", "gantt.msrx.co.in", "Presentation-ready Gantt charts", "gantt.png"),
+    ("work", "security", "MSRX Security", "SC", "#0F766E", "security.msrx.co.in", "Website security scored out of 10", "security.png"),
     ("everyday", "tools", "MSRX Tools", "MT", "#0F766E", "tools.msrx.co.in", "238 tools, no file ever uploaded", "tools.png"),
     ("everyday", "split", "MSRX Split", "SP", "#6A28B8", "split.msrx.co.in", "Trip costs, nothing on a server", "split.png"),
     ("everyday", "gluconexa", "MSRX GlucoNexa", "GN", "#0A66C2", "gluconexa.msrx.co.in", "A private, offline diabetes log", "gluconexa-pane.jpg"),
@@ -223,7 +224,7 @@ def main():
         sizes[slug] = store_card(slug, name, line, ini, acc, "App Store", "iOS")
     for slug, name, ini, acc, url, line, shot, tag in PLAY:
         sizes[slug] = card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", tag)
-    sizes["portal"] = card("portal", "MSRX", "All 27 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632)
+    sizes["portal"] = card("portal", "MSRX", "All 28 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632)
     sizes["library"] = card("library", "Mana Jardin Children's Library", "A real library platform, open source under MIT", "MJ", "#BE185D", "library.msrx.co.in", f"{SHOTS}/library.png", "COMMUNITY", width=1632)
     for k, v in sizes.items():
         print(k, v)
@@ -295,7 +296,7 @@ def banner(theme):
     d.text((x, 214), "FUTURE. INTELLIGENCE. IMPACT.", font=MONO(22), fill=ink3, anchor="lm")
     d.text((x, 250), "Mrinal Singh Raja", font=DISPLAY(96), fill=ink, anchor="la")
     sub = BODY(36)
-    d.text((x, 392), "27 free apps for the web, Mac and iPhone.", font=sub, fill=ink2, anchor="la")
+    d.text((x, 392), "28 free apps for the web, Mac and iPhone.", font=sub, fill=ink2, anchor="la")
     d.text((x, 440), "No paid tier, anywhere. Most need no sign-up.", font=sub, fill=ink2, anchor="la")
     d.text((x, 516), "BENGALURU · WWW.MSRX.CO.IN", font=MONO(20), fill=ink3, anchor="la")
 
@@ -320,7 +321,7 @@ def banner(theme):
             tile = t
         im.alpha_composite(tile, (gx0 + c * (g + gap), gy0 + r * (g + gap)))
     cap_y = gy0 + rows * g + (rows - 1) * gap + 26
-    d.text((gx0 + (cols * g + (cols - 1) * gap) / 2, cap_y), "18 WEB  ·  6 MAC  ·  4 IPHONE", font=MONO(19), fill=ink3, anchor="ma")
+    d.text((gx0 + (cols * g + (cols - 1) * gap) / 2, cap_y), "19 WEB  ·  6 MAC  ·  4 IPHONE", font=MONO(19), fill=ink3, anchor="ma")
 
     mask = Image.new("L", (W, H), 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, W - 1, H - 1), 36, fill=255)
@@ -332,7 +333,7 @@ def banner(theme):
 
 # ── Buttons ────────────────────────────────────────────────────────────────────
 BUTTONS = [
-    ("catalog", "Open all 27 apps", True),
+    ("catalog", "Open all 28 apps", True),
     ("launcher", "Install the launcher", False),
     ("appstore", "App Store", False),
     ("portfolio", "Portfolio", False),
