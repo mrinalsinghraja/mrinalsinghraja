@@ -55,7 +55,7 @@ Every card opens the app. Grouped the same way as the catalog.
 <h4 align="center">Work <sub>· 4</sub></h4>
 <p align="center"><sub>Meetings, timelines and the CV you are about to send.</sub></p>
 <p align="center">
-  <a href="https://invoice.msrx.co.in"><img src="assets/cards/invoice.webp" width="272" alt="MSRX Invoice: 38 invoice templates, export to PDF, PNG and more, nothing saved"></a>
+  <a href="https://invoice.msrx.co.in"><img src="assets/cards/invoice.webp" width="272" alt="MSRX Invoice: 39 invoice templates, export to PDF, PNG and more, nothing saved"></a>
   <a href="https://meeting.msrx.co.in"><img src="assets/cards/meeting.webp" width="272" alt="MSRX Meeting: encrypted video rooms with real-time captions"></a>
   <a href="https://cv.msrx.co.in"><img src="assets/cards/incognitocv.webp" width="272" alt="IncognitoCV: score your CV against a job posting without uploading it"></a>
   <a href="https://gantt.msrx.co.in"><img src="assets/cards/easy-peasy-gantt.webp" width="272" alt="Easy-Peasy Gantt: presentation-ready Gantt charts in seconds"></a>
@@ -94,7 +94,7 @@ Every card opens the app. Grouped the same way as the catalog.
 | **[MSRX CanvasIQ](https://canvas.msrx.co.in)** | A classic Paint-style pixel editor, 2D vector drawing and diagrams, and 3D modelling with an AI copilot, in the browser. Paint mode has selections, nine brushes, fill, text and export to PNG, JPEG, GIF, BMP, TIFF, WebP and PDF. |
 | **[MSRX UPI Desk](https://upi.msrx.co.in)** | 22 tools for the jobs around a UPI payment: payment QRs, pay links, a till, udhaar reminders, GST invoices and a scam check, in English and all 22 scheduled Indian languages. No account, works offline, never moves money. |
 | **[MSRX QR Studio](https://qr.msrx.co.in)** | 22 QR types with gradients, logos, 33 frames and 32 editable templates, plus scan-health scoring that catches codes which would fail in the real world. |
-| **[MSRX Invoice](https://invoice.msrx.co.in)** | Invoices, quotes, receipts, proforma invoices, credit notes and purchase orders from 38 templates. Add your logo, GSTIN/PAN and other registration details, and download as PDF, PNG, JPG and more. Nothing is saved or uploaded; an optional Ask AI box fills a document from plain words. [Step-by-step guide with screenshots](https://invoice.msrx.co.in/guide). |
+| **[MSRX Invoice](https://invoice.msrx.co.in)** | Invoices, quotes, receipts, proforma invoices, credit notes and purchase orders from 39 templates. Add your logo, GSTIN/PAN and other registration details, and download as PDF, PNG, JPG and more. Nothing is saved or uploaded; an optional Ask AI box fills a document from plain words. [Step-by-step guide with screenshots](https://invoice.msrx.co.in/guide). |
 | **[Easy-Peasy Gantt](https://gantt.msrx.co.in)** | One presentation-ready schedule without adopting a project-management platform. Single file, no framework. |
 
 </details>

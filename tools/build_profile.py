@@ -178,7 +178,7 @@ WEB = [
     ("create", "graphiq", "MSRX GraphIQ", "GQ", "#9333EA", "graph.msrx.co.in", "Spreadsheet in, 2D and 3D charts out", "graphiq.png"),
     ("create", "canvasiq", "MSRX CanvasIQ", "CQ", "#1D4ED8", "canvas.msrx.co.in", "Paint, vectors and 3D with a copilot", "canvasiq.png"),
     ("create", "qr-studio", "MSRX QR Studio", "QS", "#0E7490", "qr.msrx.co.in", "22 QR types, with scan-health scores", "qrstudio.png"),
-    ("work", "invoice", "MSRX Invoice", "IV", "#4338CA", "invoice.msrx.co.in", "38 invoice templates, nothing saved", "invoice.png"),
+    ("work", "invoice", "MSRX Invoice", "IV", "#4338CA", "invoice.msrx.co.in", "39 invoice templates, nothing saved", "invoice.png"),
     ("work", "meeting", "MSRX Meeting", "MM", "#2563EB", "meeting.msrx.co.in", "Encrypted rooms with live captions", "meeting.png"),
     ("work", "incognitocv", "IncognitoCV", "IC", "#8A5F1C", "cv.msrx.co.in", "Score a CV without uploading it", "cv.png"),
     ("work", "easy-peasy-gantt", "Easy-Peasy Gantt", "EG", "#4F46E5", "gantt.msrx.co.in", "Presentation-ready Gantt charts", "gantt.png"),
