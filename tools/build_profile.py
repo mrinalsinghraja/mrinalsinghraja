@@ -184,7 +184,7 @@ WEB = [
     ("work", "easy-peasy-gantt", "Easy-Peasy Gantt", "EG", "#4F46E5", "gantt.msrx.co.in", "Presentation-ready Gantt charts", "gantt.png"),
     ("work", "security", "MSRX Security", "SC", "#0F766E", "security.msrx.co.in", "Website security scored out of 10", "security.png"),
     ("everyday", "tools", "MSRX Tools", "MT", "#0F766E", "tools.msrx.co.in", "238 tools, no file ever uploaded", "tools.png"),
-    ("everyday", "split", "MSRX Split", "SP", "#6A28B8", "split.msrx.co.in", "Trip costs, nothing on a server", "split.png"),
+    ("everyday", "split", "MSRX Split", "SP", "#6A28B8", "split.msrx.co.in", "Plan trips and split costs, no server", "split.png"),
     ("everyday", "gluconexa", "MSRX GlucoNexa", "GN", "#0A66C2", "gluconexa.msrx.co.in", "A private, offline diabetes log", "gluconexa-pane.jpg"),
     ("everyday", "flight", "MSRX Flights", "FL", "#0A6E70", "flight.msrx.co.in", "Cheapest flights, day and hour", "flight.png"),
     ("everyday", "diwali", "MSRX Diwali Cards", "DW", "#B4440A", "diwali.msrx.co.in", "63 Diwali cards in 13 languages", "diwali.png"),
