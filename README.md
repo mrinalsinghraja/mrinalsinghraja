@@ -65,7 +65,7 @@ Every card opens the app. Grouped the same way as the catalog.
 <p align="center"><sub>The small tools you reach for and then forget about.</sub></p>
 <p align="center">
   <a href="https://tools.msrx.co.in"><img src="assets/cards/tools.webp" width="272" alt="MSRX Tools: 238 tools for files, images, video and text, no file ever uploaded"></a>
-  <a href="https://split.msrx.co.in"><img src="assets/cards/split.webp" width="272" alt="MSRX Split: split trip costs with friends, nothing stored on a server"></a>
+  <a href="https://split.msrx.co.in"><img src="assets/cards/split.webp" width="272" alt="MSRX Split: split trip costs and plan the trip with friends, nothing stored on a server"></a>
   <a href="https://gluconexa.msrx.co.in"><img src="assets/cards/gluconexa.webp" width="272" alt="MSRX GlucoNexa: a private, offline diabetes logbook"></a>
   <a href="https://flight.msrx.co.in"><img src="assets/cards/flight.webp" width="272" alt="MSRX Flights: the cheapest domestic flight in India, by day and time of day"></a>
   <a href="https://diwali.msrx.co.in"><img src="assets/cards/diwali.webp" width="272" alt="MSRX Diwali Cards: make a personal Diwali card from 63 designs in 13 languages"></a>
@@ -80,7 +80,7 @@ Every card opens the app. Grouped the same way as the catalog.
 | App | What it does |
 |---|---|
 | **[MSRX Tools](https://tools.msrx.co.in)** | 238 tools for files, images, video, audio, text, money and code. No file is ever uploaded: every file tool reads it on your device. The AI writing tools are the one exception, and say so. |
-| **[MSRX Split](https://split.msrx.co.in)** | Split trip costs with friends: budgets, a forecast and an Ask button that answers spending questions on your phone. Data stays on members' devices, never on a server. Optional AI answers send only labels and figures, never names. |
+| **[MSRX Split](https://split.msrx.co.in)** | Split trip costs with friends and plan the trip together: a shared itinerary with booking numbers and links, red/amber/green for what was missed, photos, budgets, a forecast and an Ask button that answers spending questions on your phone. Data and photos stay on members' devices, never on a server. Optional AI answers send only labels and figures, never names. |
 | **[MSRX Flights](https://flight.msrx.co.in)** | Finds the cheapest domestic flight in India. Search a day or three days either side, one way or return, and see the lowest fare for every day and time of day, then filter by stops, airline and flight number. Fares come from Google Flights, and results open there to book. No account. |
 | **[MSRX Diwali Cards](https://diwali.msrx.co.in)** | Make a personal Happy Diwali card from 63 designs in six styles, in English or 12 Indian languages, and download it as PNG, JPG or PDF. Names and wishes never leave your browser. No account. |
 | **[MSRX GlucoNexa](https://gluconexa.msrx.co.in)** | A private diabetes logbook (beta) that keeps everything on your own device: no account and no server copy of your readings. Log glucose, meals from more than 130 foods including Indian staples, medicines, activity and sleep, scan a meter's screen on the device, and take a printable report to your doctor. A logbook, not a medical device: it never recommends doses. |
