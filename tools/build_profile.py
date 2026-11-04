@@ -226,6 +226,7 @@ def main():
         sizes[slug] = card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", tag)
     sizes["portal"] = card("portal", "MSRX", "All 28 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632)
     sizes["library"] = card("library", "Mana Jardin Children's Library", "A real library platform, open source under MIT", "MJ", "#BE185D", "library.msrx.co.in", f"{SHOTS}/library.png", "COMMUNITY", width=1632)
+    sizes["mana-jardin-portal"] = card("mana-jardin-portal", "Mana Jardin Portal", "Resident portal, open source", "MJ", "#A82878", "www.mj.msrx.co.in", f"{SHOTS}/mana-jardin-portal.jpg", "COMMUNITY", width=1632)
     for k, v in sizes.items():
         print(k, v)
 
