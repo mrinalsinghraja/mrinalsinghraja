@@ -216,11 +216,15 @@ PLAY = [
 
 
 PRIVATE = [
-    # slug, name, initials, accent, address, line
-    ("study", "MSRX Study", "ST", "#0369A1", "study.msrx.co.in", "72 JEE chapters: notes, levels, PYQs"),
-    ("pyq", "MSRX PYQ Desk", "PQ", "#BE123C", "pyq.msrx.co.in", "Past JEE papers, filed by chapter"),
-    ("puc", "MSRX PUC PYQ Desk", "PU", "#15803D", "puc.msrx.co.in", "Karnataka 2nd PUC papers"),
-    ("jr-iit-library", "JR IIT Library", "JL", "#4338CA", "jee.msrx.co.in", "Batch study material, by subject"),
+    # slug, name, initials, accent, address, line. The address bar says
+    # "family access only" rather than a host: these are documented, not
+    # advertised, and nothing inside is shown.
+    ("study", "MSRX Study", "ST", "#0369A1", "family access only", "Chapter notes, levels and past questions"),
+    ("pyq", "MSRX PYQ Desk", "PQ", "#BE123C", "family access only", "Past JEE papers, filed by chapter"),
+    ("puc", "MSRX PUC PYQ Desk", "PU", "#15803D", "family access only", "Karnataka 2nd PUC papers"),
+    ("jr-iit-library", "JR IIT Library", "JL", "#4338CA", "family access only", "Batch study material, by subject"),
+    ("results-room", "Family Results Room", "RR", "#7C3AED", "family access only", "Weekly test results, password only"),
+    ("usage-dashboard", "MSRX Usage Dashboard", "UX", "#0F766E", "family access only", "How much load each app puts on hosting"),
 ]
 
 
@@ -245,14 +249,14 @@ def lock_panel(width, height, accent):
     d.ellipse((cx - 11 * u, cy - 14 * u, cx + 11 * u, cy + 8 * u), fill=top)
     d.polygon([(cx - 6 * u, cy + 4 * u), (cx + 6 * u, cy + 4 * u), (cx + 10 * u, cy + 30 * u), (cx - 10 * u, cy + 30 * u)], fill=top)
     f = MONO_B(round(22 * u))
-    d.text((cx, cy + bh / 2 + 50 * u), "PRIVATE  ·  ACCESS CODE", font=f, fill=ink, anchor="mm")
+    d.text((cx, cy + bh / 2 + 50 * u), "FAMILY ONLY", font=f, fill=ink, anchor="mm")
     return im
 
 
 def private_card(slug, name, line, initials, accent, address, width=816):
     acc = hexrgb(accent)
     shot_h = round(width * 10 / 16)
-    body = caption(width, name, line, initials, acc, "PRIVATE")
+    body = caption(width, name, line, initials, acc, "FAMILY")
     panel = lock_panel(width, shot_h, acc)
     w = window(width, address, acc, shot=panel.convert("RGB"), shot_h=shot_h, body=body, body_h=body.size[1])
     out = shadowed(w, round(26 * width / 816), round(30 * width / 816), 46)

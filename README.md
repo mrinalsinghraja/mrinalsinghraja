@@ -19,7 +19,7 @@
   <a href="#mac">Mac</a> ·
   <a href="#iphone">iPhone</a> ·
   <a href="#play-and-read">Play and read</a> ·
-  <a href="#private">Private</a> ·
+  <a href="#private">Family only</a> ·
   <a href="#community">Community</a> ·
   <a href="#stack">Stack</a> ·
   <a href="#say-hello">Say hello</a>
@@ -139,15 +139,17 @@ Two browser games, homages to the DOS classics, and two reading sites.
   <a href="https://news.msrx.co.in"><img src="assets/cards/news.webp" width="408" alt="MSRX News: short, neutral briefs on AI and technology, every fact attributed"></a>
 </p>
 
-<h2 id="private">Private <sub>· 4 apps behind an access code</sub></h2>
+<h2 id="private">Family only <sub>· 6 apps, not open to the public</sub></h2>
 
-These are running and in use, and closed on purpose: each opens only with a code, and none is shown here beyond its name, because what is inside belongs to the people it was made for. If you are one of them, you already have the code. If you think you should be, email me.
+Some of what I build is for my own family and nobody else. These are running and in daily use, each behind its own code or password. They are listed here so the picture is complete, and because I like to document what I make; nothing inside them is shown, and they are not linked. Details of what each one is for are in [docs/FAMILY-APPS.md](docs/FAMILY-APPS.md).
 
 <p align="center">
-  <a href="https://study.msrx.co.in"><img src="assets/cards/study.webp" width="408" alt="MSRX Study: 72 JEE chapters with notes, three difficulty levels and past-year questions. Private, access code needed"></a>
-  <a href="https://pyq.msrx.co.in"><img src="assets/cards/pyq.webp" width="408" alt="MSRX PYQ Desk: past JEE papers filed by chapter and topic. Private, access code needed"></a>
-  <a href="https://puc.msrx.co.in"><img src="assets/cards/puc.webp" width="408" alt="MSRX PUC PYQ Desk: Karnataka 2nd PUC board papers by chapter. Private, access code needed"></a>
-  <a href="https://jee.msrx.co.in"><img src="assets/cards/jr-iit-library.webp" width="408" alt="JR IIT Library: study material for one batch, sorted by subject and chapter. Private, access code needed"></a>
+  <img src="assets/cards/study.webp" width="272" alt="MSRX Study: chapter notes, levels and past questions. Family access only, nothing shown">
+  <img src="assets/cards/pyq.webp" width="272" alt="MSRX PYQ Desk: past JEE papers filed by chapter. Family access only, nothing shown">
+  <img src="assets/cards/puc.webp" width="272" alt="MSRX PUC PYQ Desk: Karnataka 2nd PUC papers. Family access only, nothing shown">
+  <img src="assets/cards/jr-iit-library.webp" width="272" alt="JR IIT Library: batch study material by subject. Family access only, nothing shown">
+  <img src="assets/cards/results-room.webp" width="272" alt="Family Results Room: weekly test results behind a password. Family access only, nothing shown">
+  <img src="assets/cards/usage-dashboard.webp" width="272" alt="MSRX Usage Dashboard: how much load each app puts on hosting. Family access only, nothing shown">
 </p>
 
 <h2 id="community">Community and client work</h2>
