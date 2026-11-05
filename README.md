@@ -144,10 +144,10 @@ Two browser games, homages to the DOS classics, and two reading sites.
 These are running and in use, and closed on purpose: each opens only with a code, and none is shown here beyond its name, because what is inside belongs to the people it was made for. If you are one of them, you already have the code. If you think you should be, email me.
 
 <p align="center">
-  <a href="https://study.msrx.co.in"><img src="assets/cards/study.webp" width="272" alt="MSRX Study: 72 JEE chapters with notes, three difficulty levels and past-year questions. Private, access code needed"></a>
-  <a href="https://pyq.msrx.co.in"><img src="assets/cards/pyq.webp" width="272" alt="MSRX PYQ Desk: past JEE papers filed by chapter and topic. Private, access code needed"></a>
-  <a href="https://puc.msrx.co.in"><img src="assets/cards/puc.webp" width="272" alt="MSRX PUC PYQ Desk: Karnataka 2nd PUC board papers by chapter. Private, access code needed"></a>
-  <a href="https://jee.msrx.co.in"><img src="assets/cards/jr-iit-library.webp" width="272" alt="JR IIT Library: study material for one batch, sorted by subject and chapter. Private, access code needed"></a>
+  <a href="https://study.msrx.co.in"><img src="assets/cards/study.webp" width="408" alt="MSRX Study: 72 JEE chapters with notes, three difficulty levels and past-year questions. Private, access code needed"></a>
+  <a href="https://pyq.msrx.co.in"><img src="assets/cards/pyq.webp" width="408" alt="MSRX PYQ Desk: past JEE papers filed by chapter and topic. Private, access code needed"></a>
+  <a href="https://puc.msrx.co.in"><img src="assets/cards/puc.webp" width="408" alt="MSRX PUC PYQ Desk: Karnataka 2nd PUC board papers by chapter. Private, access code needed"></a>
+  <a href="https://jee.msrx.co.in"><img src="assets/cards/jr-iit-library.webp" width="408" alt="JR IIT Library: study material for one batch, sorted by subject and chapter. Private, access code needed"></a>
 </p>
 
 <h2 id="community">Community and client work</h2>

@@ -219,7 +219,7 @@ PRIVATE = [
     # slug, name, initials, accent, address, line
     ("study", "MSRX Study", "ST", "#0369A1", "study.msrx.co.in", "72 JEE chapters: notes, levels, PYQs"),
     ("pyq", "MSRX PYQ Desk", "PQ", "#BE123C", "pyq.msrx.co.in", "Past JEE papers, filed by chapter"),
-    ("puc", "MSRX PUC PYQ Desk", "PU", "#15803D", "puc.msrx.co.in", "Karnataka 2nd PUC papers by chapter"),
+    ("puc", "MSRX PUC PYQ Desk", "PU", "#15803D", "puc.msrx.co.in", "Karnataka 2nd PUC papers"),
     ("jr-iit-library", "JR IIT Library", "JL", "#4338CA", "jee.msrx.co.in", "Batch study material, by subject"),
 ]
 
