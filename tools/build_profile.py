@@ -182,6 +182,7 @@ WEB = [
     ("work", "meeting", "MSRX Meeting", "MM", "#2563EB", "meeting.msrx.co.in", "Encrypted rooms with live captions", "meeting.png"),
     ("work", "incognitocv", "IncognitoCV", "IC", "#8A5F1C", "cv.msrx.co.in", "Score a CV without uploading it", "cv.png"),
     ("work", "easy-peasy-gantt", "Easy-Peasy Gantt", "EG", "#4F46E5", "gantt.msrx.co.in", "Presentation-ready Gantt charts", "gantt.png"),
+    ("work", "drive", "MSRX Drive", "MD", "#1D4ED8", "drive.msrx.co.in", "A file manager in your browser", "drive.jpg"),
     ("work", "security", "MSRX Security", "SC", "#0F766E", "security.msrx.co.in", "Website security scored out of 10", "security.png"),
     ("everyday", "tools", "MSRX Tools", "MT", "#0F766E", "tools.msrx.co.in", "238 tools, no file ever uploaded", "tools.png"),
     ("everyday", "split", "MSRX Split", "SP", "#6A28B8", "split.msrx.co.in", "Plan trips and split costs, no server", "split.png"),
@@ -214,7 +215,55 @@ PLAY = [
 ]
 
 
+PRIVATE = [
+    # slug, name, initials, accent, address, line
+    ("study", "MSRX Study", "ST", "#0369A1", "study.msrx.co.in", "72 JEE chapters: notes, levels, PYQs"),
+    ("pyq", "MSRX PYQ Desk", "PQ", "#BE123C", "pyq.msrx.co.in", "Past JEE papers, filed by chapter"),
+    ("puc", "MSRX PUC PYQ Desk", "PU", "#15803D", "puc.msrx.co.in", "Karnataka 2nd PUC papers by chapter"),
+    ("jr-iit-library", "JR IIT Library", "JL", "#4338CA", "jee.msrx.co.in", "Batch study material, by subject"),
+]
+
+
+def lock_panel(width, height, accent):
+    """Stands in for a screenshot: these apps sit behind an access code, so the
+    card shows a closed door, never the content behind it."""
+    top = mix(accent, (255, 255, 255), 0.16)
+    bot = mix(accent, (255, 255, 255), 0.05)
+    im = gradient((width, height), top, bot, angle_h=False).convert("RGBA")
+    d = ImageDraw.Draw(im)
+    cx, cy = width / 2, height / 2 - 18
+    u = height / 400
+    bw, bh = 118 * u, 92 * u
+    ink = mix((0, 0, 0), accent, 0.2)
+    # shackle
+    sr = 38 * u
+    d.arc((cx - sr, cy - bh / 2 - sr * 1.55, cx + sr, cy - bh / 2 + sr * 0.45), 180, 360, fill=ink, width=round(15 * u))
+    d.line((cx - sr, cy - bh / 2 - sr * 0.55, cx - sr, cy - bh / 2 + 2), fill=ink, width=round(15 * u))
+    d.line((cx + sr, cy - bh / 2 - sr * 0.55, cx + sr, cy - bh / 2 + 2), fill=ink, width=round(15 * u))
+    # body + keyhole
+    d.rounded_rectangle((cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2), 18 * u, fill=ink)
+    d.ellipse((cx - 11 * u, cy - 14 * u, cx + 11 * u, cy + 8 * u), fill=top)
+    d.polygon([(cx - 6 * u, cy + 4 * u), (cx + 6 * u, cy + 4 * u), (cx + 10 * u, cy + 30 * u), (cx - 10 * u, cy + 30 * u)], fill=top)
+    f = MONO_B(round(22 * u))
+    d.text((cx, cy + bh / 2 + 50 * u), "PRIVATE  ·  ACCESS CODE", font=f, fill=ink, anchor="mm")
+    return im
+
+
+def private_card(slug, name, line, initials, accent, address, width=816):
+    acc = hexrgb(accent)
+    shot_h = round(width * 10 / 16)
+    body = caption(width, name, line, initials, acc, "PRIVATE")
+    panel = lock_panel(width, shot_h, acc)
+    w = window(width, address, acc, shot=panel.convert("RGB"), shot_h=shot_h, body=body, body_h=body.size[1])
+    out = shadowed(w, round(26 * width / 816), round(30 * width / 816), 46)
+    out.save(f"{OUT}/cards/{slug}.webp", "WEBP", quality=82, method=6)
+    return out.size
+
+
 def main():
+    only = set(filter(None, os.environ.get("ONLY", "").split(",")))
+    if only:
+        return build_only(only)
     sizes = {}
     for _, slug, name, ini, acc, url, line, shot in WEB:
         sizes[slug] = card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", "WEB · MAC" if slug == "pulsenet" else "WEB")
@@ -224,11 +273,31 @@ def main():
         sizes[slug] = store_card(slug, name, line, ini, acc, "App Store", "iOS")
     for slug, name, ini, acc, url, line, shot, tag in PLAY:
         sizes[slug] = card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", tag)
-    sizes["portal"] = card("portal", "MSRX", "All 28 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632)
+    sizes["portal"] = card("portal", "MSRX", "All 29 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632)
     sizes["library"] = card("library", "Mana Jardin Children's Library", "A real library platform, open source under MIT", "MJ", "#BE185D", "library.msrx.co.in", f"{SHOTS}/library.png", "COMMUNITY", width=1632)
     sizes["mana-jardin-portal"] = card("mana-jardin-portal", "Mana Jardin Portal", "Resident portal, open source", "MJ", "#A82878", "www.mj.msrx.co.in", f"{SHOTS}/mana-jardin-portal.jpg", "COMMUNITY", width=1632)
+    for slug, name, ini, acc, url, line in PRIVATE:
+        sizes[slug] = private_card(slug, name, line, ini, acc, url)
+    sizes["thanks"] = card("thanks", "Thank You Card Maker", "Durga Puja 2026, personalised", "TY", "#7A1428", "thanks.msrx.co.in", f"{SHOTS}/thanks.png", "COMMUNITY")
     for k, v in sizes.items():
         print(k, v)
+
+
+def build_only(only):
+    """Rebuild just the named cards, for when only some screenshots are on hand."""
+    for slug in sorted(only):
+        w = [x for x in WEB if x[1] == slug]
+        p = [x for x in PRIVATE if x[0] == slug]
+        if w:
+            _, slug, name, ini, acc, url, line, shot = w[0]
+            print(slug, card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", "WEB"))
+        elif p:
+            slug, name, ini, acc, url, line = p[0]
+            print(slug, private_card(slug, name, line, ini, acc, url))
+        elif slug == "thanks":
+            print(slug, card("thanks", "Thank You Card Maker", "Durga Puja 2026, personalised", "TY", "#7A1428", "thanks.msrx.co.in", f"{SHOTS}/thanks.png", "COMMUNITY"))
+        elif slug == "portal":
+            print(slug, card("portal", "MSRX", "All 29 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632))
 
 
 if __name__ == "__main__":
@@ -297,7 +366,7 @@ def banner(theme):
     d.text((x, 214), "FUTURE. INTELLIGENCE. IMPACT.", font=MONO(22), fill=ink3, anchor="lm")
     d.text((x, 250), "Mrinal Singh Raja", font=DISPLAY(96), fill=ink, anchor="la")
     sub = BODY(36)
-    d.text((x, 392), "28 free apps for the web, Mac and iPhone.", font=sub, fill=ink2, anchor="la")
+    d.text((x, 392), "29 free apps for the web, Mac and iPhone.", font=sub, fill=ink2, anchor="la")
     d.text((x, 440), "No paid tier, anywhere. Most need no sign-up.", font=sub, fill=ink2, anchor="la")
     d.text((x, 516), "BENGALURU · WWW.MSRX.CO.IN", font=MONO(20), fill=ink3, anchor="la")
 
@@ -322,7 +391,7 @@ def banner(theme):
             tile = t
         im.alpha_composite(tile, (gx0 + c * (g + gap), gy0 + r * (g + gap)))
     cap_y = gy0 + rows * g + (rows - 1) * gap + 26
-    d.text((gx0 + (cols * g + (cols - 1) * gap) / 2, cap_y), "19 WEB  ·  6 MAC  ·  4 IPHONE", font=MONO(19), fill=ink3, anchor="ma")
+    d.text((gx0 + (cols * g + (cols - 1) * gap) / 2, cap_y), "20 WEB  ·  6 MAC  ·  4 IPHONE", font=MONO(19), fill=ink3, anchor="ma")
 
     mask = Image.new("L", (W, H), 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, W - 1, H - 1), 36, fill=255)
@@ -334,7 +403,7 @@ def banner(theme):
 
 # ── Buttons ────────────────────────────────────────────────────────────────────
 BUTTONS = [
-    ("catalog", "Open all 28 apps", True),
+    ("catalog", "Open all 29 apps", True),
     ("launcher", "Install the launcher", False),
     ("appstore", "App Store", False),
     ("portfolio", "Portfolio", False),
