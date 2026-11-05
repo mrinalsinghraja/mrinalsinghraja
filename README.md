@@ -144,12 +144,12 @@ Two browser games, homages to the DOS classics, and two reading sites.
 Some of what I build is for my own family and nobody else. These are running and in daily use, each behind its own code or password. They are listed here so the picture is complete, and because I like to document what I make; nothing inside them is shown, and they are not linked. Details of what each one is for are in [docs/FAMILY-APPS.md](docs/FAMILY-APPS.md).
 
 <p align="center">
-  <img src="assets/cards/study.webp" width="272" alt="MSRX Study: chapter notes, levels and past questions. Family access only, nothing shown">
-  <img src="assets/cards/pyq.webp" width="272" alt="MSRX PYQ Desk: past JEE papers filed by chapter. Family access only, nothing shown">
-  <img src="assets/cards/puc.webp" width="272" alt="MSRX PUC PYQ Desk: Karnataka 2nd PUC papers. Family access only, nothing shown">
-  <img src="assets/cards/jr-iit-library.webp" width="272" alt="JR IIT Library: batch study material by subject. Family access only, nothing shown">
-  <img src="assets/cards/results-room.webp" width="272" alt="Family Results Room: weekly test results behind a password. Family access only, nothing shown">
-  <img src="assets/cards/usage-dashboard.webp" width="272" alt="MSRX Usage Dashboard: how much load each app puts on hosting. Family access only, nothing shown">
+  <img src="assets/cards/family-study.webp" width="272" alt="MSRX Study: chapter notes, levels and past questions. Family access only, nothing shown">
+  <img src="assets/cards/family-pyq.webp" width="272" alt="MSRX PYQ Desk: past JEE papers filed by chapter. Family access only, nothing shown">
+  <img src="assets/cards/family-puc.webp" width="272" alt="MSRX PUC PYQ Desk: Karnataka 2nd PUC papers. Family access only, nothing shown">
+  <img src="assets/cards/family-jr-iit-library.webp" width="272" alt="JR IIT Library: batch study material by subject. Family access only, nothing shown">
+  <img src="assets/cards/family-results-room.webp" width="272" alt="Family Results Room: weekly test results behind a password. Family access only, nothing shown">
+  <img src="assets/cards/family-usage-dashboard.webp" width="272" alt="MSRX Usage Dashboard: how much load each app puts on hosting. Family access only, nothing shown">
 </p>
 
 <h2 id="community">Community and client work</h2>

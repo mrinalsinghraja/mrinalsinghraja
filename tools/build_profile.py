@@ -219,12 +219,12 @@ PRIVATE = [
     # slug, name, initials, accent, address, line. The address bar says
     # "family access only" rather than a host: these are documented, not
     # advertised, and nothing inside is shown.
-    ("study", "MSRX Study", "ST", "#0369A1", "family access only", "Chapter notes, levels and past questions"),
-    ("pyq", "MSRX PYQ Desk", "PQ", "#BE123C", "family access only", "Past JEE papers, filed by chapter"),
-    ("puc", "MSRX PUC PYQ Desk", "PU", "#15803D", "family access only", "Karnataka 2nd PUC papers"),
-    ("jr-iit-library", "JR IIT Library", "JL", "#4338CA", "family access only", "Batch study material, by subject"),
-    ("results-room", "Family Results Room", "RR", "#7C3AED", "family access only", "Weekly test results, password only"),
-    ("usage-dashboard", "MSRX Usage Dashboard", "UX", "#0F766E", "family access only", "How much load each app puts on hosting"),
+    ("family-study", "MSRX Study", "ST", "#0369A1", "family access only", "Chapter notes, levels and past questions"),
+    ("family-pyq", "MSRX PYQ Desk", "PQ", "#BE123C", "family access only", "Past JEE papers, filed by chapter"),
+    ("family-puc", "MSRX PUC PYQ Desk", "PU", "#15803D", "family access only", "Karnataka 2nd PUC papers"),
+    ("family-jr-iit-library", "JR IIT Library", "JL", "#4338CA", "family access only", "Batch study material, by subject"),
+    ("family-results-room", "Family Results Room", "RR", "#7C3AED", "family access only", "Weekly test results, password only"),
+    ("family-usage-dashboard", "MSRX Usage Dashboard", "UX", "#0F766E", "family access only", "How much load each app puts on hosting"),
 ]
 
 
