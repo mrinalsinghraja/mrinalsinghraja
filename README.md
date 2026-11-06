@@ -1,12 +1,12 @@
 <a href="https://www.msrx.co.in">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
-    <img src="assets/banner-light.webp" width="100%" alt="MSRX · Future. Intelligence. Impact. Mrinal Singh Raja: 29 free apps for the web, Mac and iPhone. No paid tier, anywhere. Most need no sign-up.">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark-v30.webp">
+    <img src="assets/banner-light-v30.webp" width="100%" alt="MSRX · Future. Intelligence. Impact. Mrinal Singh Raja: 30 free apps for the web, Mac and iPhone. No paid tier, anywhere. Most need no sign-up.">
   </picture>
 </a>
 
 <p align="center">
-  <a href="https://www.msrx.co.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-catalog-dark.webp"><img src="assets/btn-catalog-light.webp" height="42" alt="Open all 29 apps"></picture></a>
+  <a href="https://www.msrx.co.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-catalog-dark-v30.webp"><img src="assets/btn-catalog-light-v30.webp" height="42" alt="Open all 30 apps"></picture></a>
   <a href="https://www.msrx.co.in/launcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-launcher-dark.webp"><img src="assets/btn-launcher-light.webp" height="42" alt="Install the launcher"></picture></a>
   <a href="https://apps.apple.com/us/developer/mrinal-singh-raja/id1879524280"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-appstore-dark.webp"><img src="assets/btn-appstore-light.webp" height="42" alt="App Store"></picture></a>
   <a href="https://mrinalsinghraja.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.webp"><img src="assets/btn-portfolio-light.webp" height="42" alt="Portfolio"></picture></a>
@@ -25,14 +25,14 @@
   <a href="#say-hello">Say hello</a>
 </p>
 
-Software engineer in Bengaluru. I build these because I enjoy building them: 29 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
+Software engineer in Bengaluru. I build these because I enjoy building them: 30 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
 
 **Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 19 of the 20 web apps do not ask for an account either. Open one in a private window and it works.
 
 **Fastest way in:** open **[www.msrx.co.in/launcher](https://www.msrx.co.in/launcher)** and tap **Install MSRX** (on iPhone: Share → Add to Home Screen). One icon, every app.
 
 <p align="center">
-  <a href="https://www.msrx.co.in"><img src="assets/cards/portal.webp" width="840" alt="The MSRX catalog at www.msrx.co.in: all 29 apps in one place, with search across apps and 238 tools"></a>
+  <a href="https://www.msrx.co.in"><img src="assets/cards/portal-v30.webp" width="840" alt="The MSRX catalog at www.msrx.co.in: all 30 apps in one place, with search across apps and 238 tools"></a>
 </p>
 
 <h2 id="web">Web <sub>· 20 apps, free, no install</sub></h2>
@@ -63,13 +63,14 @@ Every card opens the app. Grouped the same way as the catalog.
   <a href="https://drive.msrx.co.in"><img src="assets/cards/drive.webp" width="272" alt="MSRX Drive: a private file manager in your browser, with a Mac app too"></a>
   <a href="https://security.msrx.co.in"><img src="assets/cards/security.webp" width="272" alt="MSRX Security: scan any website and get a SWOT security report scored out of 10"></a>
 </p>
-<h4 align="center">Everyday <sub>· 8</sub></h4>
+<h4 align="center">Everyday <sub>· 9</sub></h4>
 <p align="center"><sub>The small tools you reach for and then forget about.</sub></p>
 <p align="center">
   <a href="https://tools.msrx.co.in"><img src="assets/cards/tools.webp" width="272" alt="MSRX Tools: 238 tools for files, images, video and text, no file ever uploaded"></a>
   <a href="https://split.msrx.co.in"><img src="assets/cards/split.webp" width="272" alt="MSRX Split: split trip costs and plan the trip with friends, nothing stored on a server"></a>
   <a href="https://gluconexa.msrx.co.in"><img src="assets/cards/gluconexa.webp" width="272" alt="MSRX GlucoNexa: a private, offline diabetes logbook"></a>
   <a href="https://flight.msrx.co.in"><img src="assets/cards/flight.webp" width="272" alt="MSRX Flights: the cheapest domestic flight in India, by day and time of day"></a>
+  <a href="https://birthday.msrx.co.in"><img src="assets/cards/birthday.webp" width="272" alt="MSRX Birthday Cards: 678 birthday cards, including one for every date of the year"></a>
   <a href="https://diwali.msrx.co.in"><img src="assets/cards/diwali.webp" width="272" alt="MSRX Diwali Cards: make a personal Diwali card from 63 designs in 13 languages"></a>
   <a href="https://weather.msrx.co.in"><img src="assets/cards/weatherwatch.webp" width="272" alt="MSRX WeatherWatch: weather and multi-hazard early warning in 19 languages"></a>
   <a href="https://upi.msrx.co.in"><img src="assets/cards/upi-desk.webp" width="272" alt="MSRX UPI Desk: 22 UPI tools in English and 22 Indian languages"></a>
@@ -84,6 +85,7 @@ Every card opens the app. Grouped the same way as the catalog.
 | **[MSRX Tools](https://tools.msrx.co.in)** | 238 tools for files, images, video, audio, text, money and code. No file is ever uploaded: every file tool reads it on your device. The AI writing tools are the one exception, and say so. |
 | **[MSRX Split](https://split.msrx.co.in)** | Split trip costs with friends and plan the trip together: a shared itinerary with booking numbers and links, red/amber/green for what was missed, photos, budgets, a forecast and an Ask button that answers spending questions on your phone. Data and photos stay on members' devices, never on a server. Optional AI answers send only labels and figures, never names. |
 | **[MSRX Flights](https://flight.msrx.co.in)** | Finds the cheapest domestic flight in India. Search a day or three days either side, one way or return, and see the lowest fare for every day and time of day, then filter by stops, airline and flight number. Fares come from Google Flights, and results open there to book. No account. |
+| **[MSRX Birthday Cards](https://birthday.msrx.co.in)** | 678 birthday cards: a [Birthday Calendar](https://birthday.msrx.co.in/calendar) with one for every date of the year (366, with 29 February), each showing its zodiac constellation, birth flower and birthstone, plus 312 designs in 26 styles. Type their name once and every card is addressed to them; add up to three photos, 42 fonts, and download or send an e-card link. Photos never leave the device. No account, no ads. |
 | **[MSRX Diwali Cards](https://diwali.msrx.co.in)** | Make a personal Happy Diwali card from 63 designs in six styles, in English or 12 Indian languages, and download it as PNG, JPG or PDF. Names and wishes never leave your browser. No account. |
 | **[MSRX GlucoNexa](https://gluconexa.msrx.co.in)** | A private diabetes logbook (beta) that keeps everything on your own device: no account and no server copy of your readings. Log glucose, meals from more than 130 foods including Indian staples, medicines, activity and sleep, scan a meter's screen on the device, and take a printable report to your doctor. A logbook, not a medical device: it never recommends doses. |
 | **[JEE HyperLab](https://lab.msrx.co.in)** | 204 interactive Physics, Chemistry and Maths simulations for IIT-JEE. Each is its own engine, not a template with swapped constants. |

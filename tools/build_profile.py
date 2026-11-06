@@ -188,6 +188,7 @@ WEB = [
     ("everyday", "split", "MSRX Split", "SP", "#6A28B8", "split.msrx.co.in", "Plan trips and split costs, no server", "split.png"),
     ("everyday", "gluconexa", "MSRX GlucoNexa", "GN", "#0A66C2", "gluconexa.msrx.co.in", "A private, offline diabetes log", "gluconexa-pane.jpg"),
     ("everyday", "flight", "MSRX Flights", "FL", "#0A6E70", "flight.msrx.co.in", "Cheapest flights, day and hour", "flight.png"),
+    ("everyday", "birthday", "MSRX Birthday Cards", "BD", "#C42A5A", "birthday.msrx.co.in", "678 cards, one for every date", "birthday.png"),
     ("everyday", "diwali", "MSRX Diwali Cards", "DW", "#B4440A", "diwali.msrx.co.in", "63 Diwali cards in 13 languages", "diwali.png"),
     ("everyday", "weatherwatch", "MSRX WeatherWatch", "WW", "#0369A1", "weather.msrx.co.in", "Weather and hazards in 19 languages", "weather.png"),
     ("everyday", "upi-desk", "MSRX UPI Desk", "UD", "#5B45B0", "upi.msrx.co.in", "22 UPI tools, 22 Indian languages", "upi.png"),
@@ -277,7 +278,7 @@ def main():
         sizes[slug] = store_card(slug, name, line, ini, acc, "App Store", "iOS")
     for slug, name, ini, acc, url, line, shot, tag in PLAY:
         sizes[slug] = card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", tag)
-    sizes["portal"] = card("portal", "MSRX", "All 29 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632)
+    sizes["portal"] = card("portal", "MSRX", "All 30 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632)
     sizes["library"] = card("library", "Mana Jardin Children's Library", "A real library platform, open source under MIT", "MJ", "#BE185D", "library.msrx.co.in", f"{SHOTS}/library.png", "COMMUNITY", width=1632)
     sizes["mana-jardin-portal"] = card("mana-jardin-portal", "Mana Jardin Portal", "Resident portal, open source", "MJ", "#A82878", "www.mj.msrx.co.in", f"{SHOTS}/mana-jardin-portal.jpg", "COMMUNITY", width=1632)
     for slug, name, ini, acc, url, line in PRIVATE:
@@ -301,7 +302,7 @@ def build_only(only):
         elif slug == "thanks":
             print(slug, card("thanks", "Thank You Card Maker", "Durga Puja 2026, personalised", "TY", "#7A1428", "thanks.msrx.co.in", f"{SHOTS}/thanks.png", "COMMUNITY"))
         elif slug == "portal":
-            print(slug, card("portal", "MSRX", "All 29 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632))
+            print(slug, card("portal", "MSRX", "All 30 apps in one place. Install it as one icon.", "MX", "#6D28D9", "www.msrx.co.in", f"{SHOTS}/portal.png", "WEB", width=1632))
 
 
 if __name__ == "__main__":
@@ -370,7 +371,7 @@ def banner(theme):
     d.text((x, 214), "FUTURE. INTELLIGENCE. IMPACT.", font=MONO(22), fill=ink3, anchor="lm")
     d.text((x, 250), "Mrinal Singh Raja", font=DISPLAY(96), fill=ink, anchor="la")
     sub = BODY(36)
-    d.text((x, 392), "29 free apps for the web, Mac and iPhone.", font=sub, fill=ink2, anchor="la")
+    d.text((x, 392), "30 free apps for the web, Mac and iPhone.", font=sub, fill=ink2, anchor="la")
     d.text((x, 440), "No paid tier, anywhere. Most need no sign-up.", font=sub, fill=ink2, anchor="la")
     d.text((x, 516), "BENGALURU · WWW.MSRX.CO.IN", font=MONO(20), fill=ink3, anchor="la")
 
@@ -395,7 +396,7 @@ def banner(theme):
             tile = t
         im.alpha_composite(tile, (gx0 + c * (g + gap), gy0 + r * (g + gap)))
     cap_y = gy0 + rows * g + (rows - 1) * gap + 26
-    d.text((gx0 + (cols * g + (cols - 1) * gap) / 2, cap_y), "20 WEB  ·  6 MAC  ·  4 IPHONE", font=MONO(19), fill=ink3, anchor="ma")
+    d.text((gx0 + (cols * g + (cols - 1) * gap) / 2, cap_y), "21 WEB  ·  6 MAC  ·  4 IPHONE", font=MONO(19), fill=ink3, anchor="ma")
 
     mask = Image.new("L", (W, H), 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, W - 1, H - 1), 36, fill=255)
@@ -407,7 +408,7 @@ def banner(theme):
 
 # ── Buttons ────────────────────────────────────────────────────────────────────
 BUTTONS = [
-    ("catalog", "Open all 29 apps", True),
+    ("catalog", "Open all 30 apps", True),
     ("launcher", "Install the launcher", False),
     ("appstore", "App Store", False),
     ("portfolio", "Portfolio", False),
