@@ -67,7 +67,7 @@ Every card opens the app. Grouped the same way as the catalog.
 <p align="center"><sub>The small tools you reach for and then forget about.</sub></p>
 <p align="center">
   <a href="https://tools.msrx.co.in"><img src="assets/cards/tools.webp" width="272" alt="MSRX Tools: 238 tools for files, images, video and text, no file ever uploaded"></a>
-  <a href="https://split.msrx.co.in"><img src="assets/cards/split.webp" width="272" alt="MSRX Split: split trip costs and plan the trip with friends, nothing stored on a server"></a>
+  <a href="https://split.msrx.co.in"><img src="assets/cards/split-logo.webp" width="272" alt="MSRX Split: split trip costs and plan the trip with friends, nothing stored on a server"></a>
   <a href="https://gluconexa.msrx.co.in"><img src="assets/cards/gluconexa.webp" width="272" alt="MSRX GlucoNexa: a private, offline diabetes logbook"></a>
   <a href="https://flight.msrx.co.in"><img src="assets/cards/flight.webp" width="272" alt="MSRX Flights: the cheapest domestic flight in India, by day and time of day"></a>
   <a href="https://birthday.msrx.co.in"><img src="assets/cards/birthday.webp" width="272" alt="MSRX Birthday Cards: 678 birthday cards, including one for every date of the year"></a>

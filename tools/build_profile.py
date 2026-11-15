@@ -131,14 +131,24 @@ def window(width, address, accent, shot=None, shot_h=None, body=None, body_h=0):
     return out
 
 
-def caption(width, name, line, initials, accent, tag):
+def caption(width, name, line, initials, accent, tag, icon=None):
     s = width / 816
     h = round(176 * s)
     c = Image.new("RGBA", (width, h), (255, 255, 255, 255))
     d = ImageDraw.Draw(c)
     gs = round(96 * s)
     gx, gy = round(30 * s), (h - gs) // 2
-    c.alpha_composite(glyph(gs, initials, accent), (gx, gy))
+    if icon:
+        # An app with its own logo shows it, on a white tile with the same rounded corners as the initials square.
+        art = Image.open(icon).convert("RGB").resize((gs, gs), Image.LANCZOS)
+        mask = Image.new("L", (gs, gs), 0)
+        ImageDraw.Draw(mask).rounded_rectangle((0, 0, gs - 1, gs - 1), round(gs * 0.28), fill=255)
+        tile = Image.new("RGBA", (gs, gs), (0, 0, 0, 0))
+        tile.paste(art, (0, 0), mask)
+        ImageDraw.Draw(tile).rounded_rectangle((0, 0, gs - 1, gs - 1), round(gs * 0.28), outline=mix(accent, (255, 255, 255), 0.25) + (255,), width=max(2, gs // 40))
+        c.alpha_composite(tile, (gx, gy))
+    else:
+        c.alpha_composite(glyph(gs, initials, accent), (gx, gy))
     tx = gx + gs + round(24 * s)
     avail = width - tx - round(30 * s)
     ft = MONO(round(22 * s))
@@ -150,10 +160,11 @@ def caption(width, name, line, initials, accent, tag):
 
 
 def card(slug, name, line, initials, accent, address, shot_path, tag, width=816):
+    icon = ICONS.get(slug)
     acc = hexrgb(accent)
     shot = Image.open(shot_path)
     shot_h = round(width * 10 / 16)
-    body = caption(width, name, line, initials, acc, tag)
+    body = caption(width, name, line, initials, acc, tag, icon)
     w = window(width, address, acc, shot=shot, shot_h=shot_h, body=body, body_h=body.size[1])
     out = shadowed(w, round(26 * width / 816), round(30 * width / 816), 46)
     out.save(f"{OUT}/cards/{slug}.webp", "WEBP", quality=82, method=6)
@@ -167,6 +178,10 @@ def store_card(slug, name, line, initials, accent, store, tag, width=816):
     out = shadowed(w, 26, 30, 40)
     out.save(f"{OUT}/cards/{slug}.webp", "WEBP", quality=86, method=6)
     return out.size
+
+
+# Apps that have their own logo file show it instead of the initials square (slug -> image path).
+ICONS = {"split": os.path.join(os.path.dirname(os.path.abspath(__file__)), "logos", "split.png")}
 
 
 # ── Data — mirrors lib/apps.ts in msrx-portal ─────────────────────────────────
