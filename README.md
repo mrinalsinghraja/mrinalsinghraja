@@ -31,7 +31,7 @@ Software engineer in Bengaluru. I build these because I enjoy building them: 30 
 
 **Fastest way in:** open **[www.msrx.co.in/launcher](https://www.msrx.co.in/launcher)** and tap **Install MSRX** (on iPhone: Share → Add to Home Screen). One icon, every app.
 
-**Milestone, November 2026:** invited by Apple Developer Center Bengaluru to its full-day event "Build and grow your app on Apple platforms", with MSRX PDF Compressor named in the invitation. I am travelling that day, so I will miss this one, and I hope to join the next.
+**Milestone, November 2026:** invited by Apple Developer Center Bengaluru to its full-day event "Build and grow your app on Apple platforms", with MSRX PDF Compressor named in the invitation. I am travelling that day, so I will miss this one, and I hope to join the next. [Read my post on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7528514958800601088/).
 
 <p align="center">
   <a href="https://www.msrx.co.in"><img src="assets/cards/portal-v30.webp" width="840" alt="The MSRX catalog at www.msrx.co.in: all 30 apps in one place, with search across apps and 238 tools"></a>
