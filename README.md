@@ -1,12 +1,12 @@
 <a href="https://www.msrx.co.in">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark-v30.webp">
-    <img src="assets/banner-light-v30.webp" width="100%" alt="MSRX · Future. Intelligence. Impact. Mrinal Singh Raja: 30 free apps for the web, Mac and iPhone. No paid tier, anywhere. Most need no sign-up.">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark-v32.webp">
+    <img src="assets/banner-light-v32.webp" width="100%" alt="MSRX · Future. Intelligence. Impact. Mrinal Singh Raja: 32 free apps for the web, Mac and iPhone. No paid tier, anywhere. Most need no sign-up.">
   </picture>
 </a>
 
 <p align="center">
-  <a href="https://www.msrx.co.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-catalog-dark-v30.webp"><img src="assets/btn-catalog-light-v30.webp" height="42" alt="Open all 30 apps"></picture></a>
+  <a href="https://www.msrx.co.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-catalog-dark-v32.webp"><img src="assets/btn-catalog-light-v32.webp" height="42" alt="Open all 32 apps"></picture></a>
   <a href="https://www.msrx.co.in/launcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-launcher-dark.webp"><img src="assets/btn-launcher-light.webp" height="42" alt="Install the launcher"></picture></a>
   <a href="https://apps.apple.com/us/developer/mrinal-singh-raja/id1879524280"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-appstore-dark.webp"><img src="assets/btn-appstore-light.webp" height="42" alt="App Store"></picture></a>
   <a href="https://mrinalsinghraja.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.webp"><img src="assets/btn-portfolio-light.webp" height="42" alt="Portfolio"></picture></a>
@@ -25,19 +25,58 @@
   <a href="#say-hello">Say hello</a>
 </p>
 
-Software engineer in Bengaluru. I build these because I enjoy building them: 30 apps are live right now across the web, macOS and iOS, 10 of them through Apple review, plus a community library platform running for real readers.
+## Hi there, I'm Mrinal 👋
 
-**Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 19 of the 20 web apps do not ask for an account either. Open one in a private window and it works.
+Software engineer in Bengaluru. I build these because I enjoy building them: 32 apps are live right now across the web, macOS and iOS, 10 of them native Apple apps, plus a community library platform running for real readers.
+
+**Everything is free. Everywhere.** No paid tier, no subscription, no trial that expires, nothing to upgrade to. 22 of the 32 apps do not ask for an account either. Open one in a private window and it works.
+
+### My work
+
+- 🧰 [**Apps**](https://www.msrx.co.in): web, Mac and iPhone, all free. One new app or article most weeks for the last six months.
+- 🔒 **Privacy first**: where a tool can do its job on your device, it does. Files, photos and readings stay with you.
+- ✍️ [**Articles**](https://articles.msrx.co.in): artificial intelligence, explained twice, once in plain words and once with the maths.
+- 📰 [**News**](https://news.msrx.co.in): short, neutral briefs on AI and technology, every fact attributed.
+- 🏘️ **Community work**: a children's library, a resident portal and websites for small local organisations, built for the people who use them.
+
+### Highlights
+
+| Project | Platform | Built with | Price | Open |
+|---|---|---|---|---|
+| **MSRX Tools**: 238 browser-only tools | Web | TypeScript, Next.js | Free | [tools.msrx.co.in](https://tools.msrx.co.in) |
+| **MSRX Security**: website security score out of 10 | Web | TypeScript, Next.js | Free | [security.msrx.co.in](https://security.msrx.co.in) |
+| **MSRX Split**: trip costs and plans, no server copy | Web | TypeScript, Next.js | Free | [split.msrx.co.in](https://split.msrx.co.in) |
+| **MSRX Meeting**: encrypted rooms with live captions | Web | TypeScript, Next.js | Free | [meeting.msrx.co.in](https://meeting.msrx.co.in) |
+| **MSRX Dose**: medicine reminders that repeat until you answer | Web, installable | Reminders and alarms | Free | [dose.msrx.co.in](https://dose.msrx.co.in) |
+| **MSRX Canvas AI**: annotate screenshots, on-device AI | Mac | Swift, Foundation Models | Free | [Mac App Store](https://apps.apple.com/us/app/msrx-canvas-ai/id6784137969?mt=12) |
+| **MSRX PDF Compressor**: shrink PDFs, keep text as text | iPhone | Swift, PDFKit | Free | [App Store](https://apps.apple.com/us/app/pdfcompressor-shrink-pdf/id6759563556) |
+| **Mana Jardin Children's Library**: open source, MIT | Web | TypeScript, Next.js | Free | [library.msrx.co.in](https://library.msrx.co.in) · [source](https://github.com/mrinalsinghraja/community-library) |
+
+### My toolbox
+
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
 
 **Fastest way in:** open **[www.msrx.co.in/launcher](https://www.msrx.co.in/launcher)** and tap **Install MSRX** (on iPhone: Share → Add to Home Screen). One icon, every app.
 
 **Milestone, November 2026:** invited by Apple Developer Center Bengaluru to its full-day event "Build and grow your app on Apple platforms", with MSRX PDF Compressor named in the invitation. I am travelling that day, so I will miss this one, and I hope to join the next. [Read my post on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7528514958800601088/).
 
 <p align="center">
-  <a href="https://www.msrx.co.in"><img src="assets/cards/portal-v30.webp" width="840" alt="The MSRX catalog at www.msrx.co.in: all 30 apps in one place, with search across apps and 238 tools"></a>
+  <a href="https://www.msrx.co.in"><img src="assets/cards/portal-v32.webp" width="840" alt="The MSRX catalog at www.msrx.co.in: all 32 apps in one place, with search across apps and 238 tools"></a>
 </p>
 
-<h2 id="web">Web <sub>· 20 apps, free, no install</sub></h2>
+<h2 id="web">Web <sub>· 23 apps, free, no install</sub></h2>
 
 Every card opens the app. Grouped the same way as the catalog.
 
@@ -65,7 +104,7 @@ Every card opens the app. Grouped the same way as the catalog.
   <a href="https://drive.msrx.co.in"><img src="assets/cards/drive.webp" width="272" alt="MSRX Drive: a private file manager in your browser, with a Mac app too"></a>
   <a href="https://security.msrx.co.in"><img src="assets/cards/security.webp" width="272" alt="MSRX Security: scan any website and get a SWOT security report scored out of 10"></a>
 </p>
-<h4 align="center">Everyday <sub>· 9</sub></h4>
+<h4 align="center">Everyday <sub>· 11</sub></h4>
 <p align="center"><sub>The small tools you reach for and then forget about.</sub></p>
 <p align="center">
   <a href="https://tools.msrx.co.in"><img src="assets/cards/tools.webp" width="272" alt="MSRX Tools: 238 tools for files, images, video and text, no file ever uploaded"></a>
@@ -76,6 +115,8 @@ Every card opens the app. Grouped the same way as the catalog.
   <a href="https://diwali.msrx.co.in"><img src="assets/cards/diwali.webp" width="272" alt="MSRX Diwali Cards: make a personal Diwali card from 63 designs in 13 languages"></a>
   <a href="https://weather.msrx.co.in"><img src="assets/cards/weatherwatch.webp" width="272" alt="MSRX WeatherWatch: weather and multi-hazard early warning in 19 languages"></a>
   <a href="https://upi.msrx.co.in"><img src="assets/cards/upi-desk.webp" width="272" alt="MSRX UPI Desk: 22 UPI tools in English and 22 Indian languages"></a>
+  <a href="https://dose.msrx.co.in"><img src="assets/cards/dose.webp" width="272" alt="MSRX Dose: a medicine reminder that repeats until you answer"></a>
+  <a href="https://calorie.msrx.co.in/app"><img src="assets/cards/calorie.webp" width="272" alt="MSRX Calorie AI: a private calorie and burn tracker"></a>
   <a href="https://pulsenet.msrx.co.in"><img src="assets/cards/pulsenet.webp" width="272" alt="OrionPulseNet: speed tests, 16 diagnostics and a copilot for your connection"></a>
 </p>
 
@@ -94,6 +135,8 @@ Every card opens the app. Grouped the same way as the catalog.
 | **[MSRX StoryQuest](https://story.msrx.co.in)** | 222 STEM missions for classes 1–10 where the answer is solved from a real equation, never authored to fit the story. Ask AI on every page explains a doubt at the level you pick, and Quiz me tests you from easy to challenge, with every question solved twice before it is shown. |
 | **[MSRX Planner](https://planner.msrx.co.in)** | An academic workspace that plans the week with the student. Offline-first: writes queue locally and reconcile on reconnect. |
 | **[MSRX WeatherWatch](https://weather.msrx.co.in)** | Live conditions, 7-day forecasts, UV and air quality, and 15 hazard engines behind one API, with an assistant that answers in 19 languages. |
+| **[MSRX Dose](https://dose.msrx.co.in)** | A free medicine reminder that installs from the browser and needs no account. Type a sentence such as "Metformin 500 8am 8pm" and check it before saving. Each dose gets a notification with Taken and Snooze buttons that repeats until you answer, an optional full-screen alarm, big readable screens for older people, an alert to a family member or carer when a dose is missed, and a printable report for the doctor. |
+| **[MSRX Calorie AI](https://calorie.msrx.co.in/app)** | A private calorie and burn tracker. Search 56 reference foods including Indian staples, or type an amount like "150g rice" or "2 eggs", and see a daily balance of food in against resting and activity burn. No scale needed: hand measures turn a portion into calories. No account; everything stays in your browser. |
 | **[OrionPulseNet](https://pulsenet.msrx.co.in)** | Speed tests, 16 network diagnostics and a copilot that reads the results. Also ships as a Mac app. |
 | **[MSRX Meeting](https://meeting.msrx.co.in)** | Encrypted video rooms with live transcription. No install, no account. |
 | **[IncognitoCV](https://cv.msrx.co.in)** | Matches your CV to a job description before you send it. The document stays in the browser; bring your own API key. |
