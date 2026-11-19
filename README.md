@@ -41,16 +41,16 @@ Software engineer in Bengaluru. I build these because I enjoy building them: 32 
 
 ### Highlights
 
-| Project | Platform | Built with | Price | Open |
-|---|---|---|---|---|
-| **MSRX Tools**: 238 browser-only tools | Web | TypeScript, Next.js | Free | [tools.msrx.co.in](https://tools.msrx.co.in) |
-| **MSRX Security**: website security score out of 10 | Web | TypeScript, Next.js | Free | [security.msrx.co.in](https://security.msrx.co.in) |
-| **MSRX Split**: trip costs and plans, no server copy | Web | TypeScript, Next.js | Free | [split.msrx.co.in](https://split.msrx.co.in) |
-| **MSRX Meeting**: encrypted rooms with live captions | Web | TypeScript, Next.js | Free | [meeting.msrx.co.in](https://meeting.msrx.co.in) |
-| **MSRX Dose**: medicine reminders that repeat until you answer | Web, installable | Reminders and alarms | Free | [dose.msrx.co.in](https://dose.msrx.co.in) |
-| **MSRX Canvas AI**: annotate screenshots, on-device AI | Mac | Swift, Foundation Models | Free | [Mac App Store](https://apps.apple.com/us/app/msrx-canvas-ai/id6784137969?mt=12) |
-| **MSRX PDF Compressor**: shrink PDFs, keep text as text | iPhone | Swift, PDFKit | Free | [App Store](https://apps.apple.com/us/app/pdfcompressor-shrink-pdf/id6759563556) |
-| **Mana Jardin Children's Library**: open source, MIT | Web | TypeScript, Next.js | Free | [library.msrx.co.in](https://library.msrx.co.in) · [source](https://github.com/mrinalsinghraja/community-library) |
+| Project | Platform and stack | Open |
+|---|---|---|
+| **MSRX Tools**: 238 browser-only tools | Web · TypeScript, Next.js. Free | [tools.msrx.co.in](https://tools.msrx.co.in) |
+| **MSRX Security**: website security score out of 10 | Web · TypeScript, Next.js. Free | [security.msrx.co.in](https://security.msrx.co.in) |
+| **MSRX Split**: trip costs and plans, no server copy | Web · TypeScript, Next.js. Free | [split.msrx.co.in](https://split.msrx.co.in) |
+| **MSRX Meeting**: encrypted rooms with live captions | Web · TypeScript, Next.js. Free | [meeting.msrx.co.in](https://meeting.msrx.co.in) |
+| **MSRX Dose**: medicine reminders that repeat until you answer | Web, installable · Reminders and alarms. Free | [dose.msrx.co.in](https://dose.msrx.co.in) |
+| **MSRX Canvas AI**: annotate screenshots, on-device AI | Mac · Swift, Foundation Models. Free | [Mac App Store](https://apps.apple.com/us/app/msrx-canvas-ai/id6784137969?mt=12) |
+| **MSRX PDF Compressor**: shrink PDFs, keep text as text | iPhone · Swift, PDFKit. Free | [App Store](https://apps.apple.com/us/app/pdfcompressor-shrink-pdf/id6759563556) |
+| **Mana Jardin Children's Library**: open source, MIT | Web · TypeScript, Next.js. Free | [library.msrx.co.in](https://library.msrx.co.in) · [source](https://github.com/mrinalsinghraja/community-library) |
 
 ### My toolbox
 
