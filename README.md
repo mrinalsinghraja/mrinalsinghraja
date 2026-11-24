@@ -49,7 +49,8 @@ Software engineer in Bengaluru. I build these because I enjoy building them: 32 
 | **MSRX Meeting**: encrypted rooms with live captions | Web · TypeScript, Next.js. Free | [meeting.msrx.co.in](https://meeting.msrx.co.in) |
 | **MSRX Dose**: medicine reminders that repeat until you answer | Web, installable · Reminders and alarms. Free | [dose.msrx.co.in](https://dose.msrx.co.in) |
 | **MSRX Canvas AI**: annotate screenshots, on-device AI | Mac · Swift, Foundation Models. Free | [Mac App Store](https://apps.apple.com/us/app/msrx-canvas-ai/id6784137969?mt=12) |
-| **MSRX PDF Compressor**: shrink PDFs, keep text as text | iPhone · Swift, PDFKit. Free | [App Store](https://apps.apple.com/us/app/pdfcompressor-shrink-pdf/id6759563556) |
+| **MSRX Process Explorer**: which app is slowing your Mac, with Rewind | Mac · Swift, on-device AI. Free | [Mac App Store](https://apps.apple.com/us/app/msrx-process-explorer/id6762134959?mt=12) |
+| **MSRX PDF Compressor**: shrink PDFs, keep text as text | iPhone · Swift, PDFKit. Free | [App Store](https://apps.apple.com/us/app/msrx-pdf-compressor/id6759563556) |
 | **Mana Jardin Children's Library**: open source, MIT | Web · TypeScript, Next.js. Free | [library.msrx.co.in](https://library.msrx.co.in) · [source](https://github.com/mrinalsinghraja/community-library) |
 
 ### My toolbox
@@ -117,7 +118,7 @@ Every card opens the app. Grouped the same way as the catalog.
   <a href="https://upi.msrx.co.in"><img src="assets/cards/upi-desk.webp" width="272" alt="MSRX UPI Desk: 22 UPI tools in English and 22 Indian languages"></a>
   <a href="https://dose.msrx.co.in"><img src="assets/cards/dose.webp" width="272" alt="MSRX Dose: a medicine reminder that repeats until you answer"></a>
   <a href="https://calorie.msrx.co.in/app"><img src="assets/cards/calorie.webp" width="272" alt="MSRX Calorie AI: a private calorie and burn tracker"></a>
-  <a href="https://pulsenet.msrx.co.in"><img src="assets/cards/pulsenet.webp" width="272" alt="OrionPulseNet: speed tests, 16 diagnostics and a copilot for your connection"></a>
+  <a href="https://pulsenet.msrx.co.in"><img src="assets/cards/msrx-pulsenet.webp" width="272" alt="MSRX PulseNet: speed tests, 16 diagnostics and a copilot for your connection"></a>
 </p>
 
 <details>
@@ -137,7 +138,7 @@ Every card opens the app. Grouped the same way as the catalog.
 | **[MSRX WeatherWatch](https://weather.msrx.co.in)** | Live conditions, 7-day forecasts, UV and air quality, and 15 hazard engines behind one API, with an assistant that answers in 19 languages. |
 | **[MSRX Dose](https://dose.msrx.co.in)** | A free medicine reminder that installs from the browser and needs no account. Type a sentence such as "Metformin 500 8am 8pm" and check it before saving. Each dose gets a notification with Taken and Snooze buttons that repeats until you answer, an optional full-screen alarm, big readable screens for older people, an alert to a family member or carer when a dose is missed, and a printable report for the doctor. |
 | **[MSRX Calorie AI](https://calorie.msrx.co.in/app)** | A private calorie and burn tracker. Search 56 reference foods including Indian staples, or type an amount like "150g rice" or "2 eggs", and see a daily balance of food in against resting and activity burn. No scale needed: hand measures turn a portion into calories. No account; everything stays in your browser. |
-| **[OrionPulseNet](https://pulsenet.msrx.co.in)** | Speed tests, 16 network diagnostics and a copilot that reads the results. Also ships as a Mac app. |
+| **[MSRX PulseNet](https://pulsenet.msrx.co.in)** | Speed tests, 16 network diagnostics and a copilot that reads the results. Also ships as a Mac app. |
 | **[MSRX Meeting](https://meeting.msrx.co.in)** | Encrypted video rooms with live transcription. No install, no account. |
 | **[IncognitoCV](https://cv.msrx.co.in)** | Matches your CV to a job description before you send it. The document stays in the browser; bring your own API key. |
 | **[MSRX GraphIQ](https://graph.msrx.co.in)** | Spreadsheet in, 2D and 3D charts out. Saves to a portable file so a chart is not trapped in the tool that made it. |
@@ -155,22 +156,24 @@ Every card opens the app. Grouped the same way as the catalog.
 
 <p align="center">
   <a href="https://apps.apple.com/us/app/msrx-canvas-ai/id6784137969?mt=12"><img src="assets/cards/canvas-ai.webp" width="272" alt="MSRX Canvas AI: paint and annotate screenshots with on-device AI"></a>
-  <a href="https://apps.apple.com/us/app/orionseek/id6770491595?mt=12"><img src="assets/cards/orionseek.webp" width="272" alt="OrionSeek: find anything on your Mac instantly"></a>
-  <a href="https://apps.apple.com/us/app/orionshield/id6764576967?mt=12"><img src="assets/cards/orionshield.webp" width="272" alt="MSRX Shield: security and privacy protection that stays out of the way"></a>
-  <a href="https://apps.apple.com/us/app/orionprocessexplorer/id6762134959?mt=12"><img src="assets/cards/orion-process-explorer.webp" width="272" alt="Orion Process Explorer: see exactly what your Mac is doing"></a>
-  <a href="https://apps.apple.com/us/app/orionclean/id6761111012?mt=12"><img src="assets/cards/orionclean.webp" width="272" alt="MSRX Clean: reclaim disk space without losing what matters"></a>
-  <a href="https://apps.apple.com/us/app/orionpulsenet/id6766838207?mt=12"><img src="assets/cards/pulsenet-mac.webp" width="272" alt="OrionPulseNet: the network toolkit, native on the Mac"></a>
+  <a href="https://apps.apple.com/us/app/msrx-seek/id6770491595?mt=12"><img src="assets/cards/msrx-seek.webp" width="272" alt="MSRX Seek: find anything on your Mac instantly"></a>
+  <a href="https://apps.apple.com/us/app/msrx-shield/id6764576967?mt=12"><img src="assets/cards/orionshield.webp" width="272" alt="MSRX Shield: security and privacy protection that stays out of the way"></a>
+  <a href="https://apps.apple.com/us/app/msrx-process-explorer/id6762134959?mt=12"><img src="assets/cards/msrx-process-explorer.webp" width="272" alt="MSRX Process Explorer: which app is slowing your Mac, with a timeline to rewind"></a>
+  <a href="https://apps.apple.com/us/app/msrx-clean/id6761111012?mt=12"><img src="assets/cards/orionclean.webp" width="272" alt="MSRX Clean: reclaim disk space without losing what matters"></a>
+  <a href="https://apps.apple.com/us/app/msrx-pulsenet/id6766838207?mt=12"><img src="assets/cards/msrx-pulsenet-mac.webp" width="272" alt="MSRX PulseNet: is my internet OK, in one plain sentence, native on the Mac"></a>
 </p>
 
 Canvas AI runs its inference on-device through Apple's Foundation Models and Vision frameworks: nothing is uploaded and there is no API key to manage. Shield and Clean are fully sandboxed.
+
+**New in November 2026.** MSRX Seek 2.0, MSRX Process Explorer 2.0 and MSRX PulseNet 2.0.1 are live. Process Explorer answers "which app is slowing my Mac?" in one sentence and has a Rewind timeline that shows what was running up to 7 days ago. PulseNet reads "is my internet OK?" as one plain sentence and adds a Tune-up grade, a 90-day Status page and Ask. In both, Ask runs on the Mac with Apple Intelligence. They need macOS 27, have no account and no ads, and the screenshots on the cards are the ones on their App Store pages.
 
 <h2 id="iphone">iPhone and iPad <sub>· 4 native apps, free on the App Store</sub></h2>
 
 <p align="center">
   <a href="https://apps.apple.com/us/app/guardtrack-pro/id6774895956"><img src="assets/cards/guardtrack-pro.webp" width="272" alt="GuardTrack Pro: patrols, incidents and reports for security teams"></a>
-  <a href="https://apps.apple.com/us/app/numly-ai-smart-calculator/id6759639887"><img src="assets/cards/numly.webp" width="272" alt="MSRX AI Calculator: a calculator that understands plain English"></a>
-  <a href="https://apps.apple.com/us/app/pdfcompressor-shrink-pdf/id6759563556"><img src="assets/cards/pdf-compressor.webp" width="272" alt="MSRX PDF Compressor: shrink PDFs without turning the text into pictures"></a>
-  <a href="https://apps.apple.com/us/app/passportfast/id6759985939"><img src="assets/cards/passportfast.webp" width="272" alt="MSRX PassportFast: passport and ID photos, measured"></a>
+  <a href="https://apps.apple.com/us/app/msrx-ai-calculator/id6759639887"><img src="assets/cards/numly.webp" width="272" alt="MSRX AI Calculator: a calculator that understands plain English"></a>
+  <a href="https://apps.apple.com/us/app/msrx-pdf-compressor/id6759563556"><img src="assets/cards/pdf-compressor.webp" width="272" alt="MSRX PDF Compressor: shrink PDFs without turning the text into pictures"></a>
+  <a href="https://apps.apple.com/us/app/msrx-passportfast/id6759985939"><img src="assets/cards/passportfast.webp" width="272" alt="MSRX PassportFast: passport and ID photos, measured"></a>
 </p>
 
 GuardTrack Pro checkpoints are GPS-verified and timestamped, so a completed patrol is evidence rather than a claim. PDF Compressor runs entirely on the phone.

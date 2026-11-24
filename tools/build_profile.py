@@ -209,16 +209,21 @@ WEB = [
     ("everyday", "upi-desk", "MSRX UPI Desk", "UD", "#5B45B0", "upi.msrx.co.in", "22 UPI tools, 22 Indian languages", "upi.png"),
     ("everyday", "dose", "MSRX Dose", "MD", "#0F766E", "dose.msrx.co.in", "Medicine reminders that nag until you answer", "dose.png"),
     ("everyday", "calorie", "MSRX Calorie AI", "CA", "#0B7A5A", "calorie.msrx.co.in", "A private calorie and burn tracker", "calorie.png"),
-    ("everyday", "pulsenet", "OrionPulseNet", "PN", "#7C3AED", "pulsenet.msrx.co.in", "Speed tests and 16 diagnostics", "pulsenet-old.jpg"),
+    ("everyday", "msrx-pulsenet", "MSRX PulseNet", "PN", "#7C3AED", "pulsenet.msrx.co.in", "Speed tests and 16 diagnostics", "pulsenet-old.jpg"),
 ]
 MAC = [
     ("canvas-ai", "MSRX Canvas AI", "CA", "#5B21B6", "Annotate screenshots, on-device AI"),
-    ("orionseek", "OrionSeek", "OS", "#166534", "Find anything on your Mac, fast"),
+    ("msrx-seek", "MSRX Seek", "MS", "#2947E8", "Find anything on your Mac, fast"),
     ("orionshield", "MSRX Shield", "MS", "#C2410C", "Privacy protection, out of the way"),
-    ("orion-process-explorer", "Orion Process Explorer", "PE", "#BE123C", "See exactly what your Mac is doing"),
+    ("msrx-process-explorer", "MSRX Process Explorer", "PE", "#BE123C", "Which app is slowing your Mac?"),
     ("orionclean", "MSRX Clean", "MC", "#115E59", "Reclaim space, keep what matters"),
-    ("pulsenet-mac", "OrionPulseNet", "PN", "#7C3AED", "The network toolkit, native"),
+    ("msrx-pulsenet-mac", "MSRX PulseNet", "PN", "#7C3AED", "Is my internet OK? One sentence"),
 ]
+# Mac cards that carry the owner's own App Store screenshot (file in SHOTS), instead of the icon-only store card.
+MACSHOT = {
+    "msrx-process-explorer": ("apps.apple.com/process-explorer", "pe-now.jpg"),
+    "msrx-pulsenet-mac": ("apps.apple.com/msrx-pulsenet", "pulsenet-home.jpg"),
+}
 IOS = [
     ("guardtrack-pro", "GuardTrack Pro", "GT", "#3730A3", "Patrols, incidents and reports"),
     ("numly", "MSRX AI Calculator", "AC", "#B45309", "A calculator that reads English"),
@@ -288,9 +293,13 @@ def main():
         return build_only(only)
     sizes = {}
     for _, slug, name, ini, acc, url, line, shot in WEB:
-        sizes[slug] = card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", "WEB · MAC" if slug == "pulsenet" else "WEB")
+        sizes[slug] = card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", "WEB · MAC" if slug == "msrx-pulsenet" else "WEB")
     for slug, name, ini, acc, line in MAC:
-        sizes[slug] = store_card(slug, name, line, ini, acc, "Mac App Store", "MAC")
+        if slug in MACSHOT:
+            addr, shot = MACSHOT[slug]
+            sizes[slug] = card(slug, name, line, ini, acc, addr, f"{SHOTS}/{shot}", "MAC")
+        else:
+            sizes[slug] = store_card(slug, name, line, ini, acc, "Mac App Store", "MAC")
     for slug, name, ini, acc, line in IOS:
         sizes[slug] = store_card(slug, name, line, ini, acc, "App Store", "iOS")
     for slug, name, ini, acc, url, line, shot, tag in PLAY:
@@ -308,11 +317,20 @@ def main():
 def build_only(only):
     """Rebuild just the named cards, for when only some screenshots are on hand."""
     for slug in sorted(only):
+        m = [x for x in MAC if x[0] == slug]
+        if m:
+            slug, name, ini, acc, line = m[0]
+            if slug in MACSHOT:
+                addr, shot = MACSHOT[slug]
+                print(slug, card(slug, name, line, ini, acc, addr, f"{SHOTS}/{shot}", "MAC"))
+            else:
+                print(slug, store_card(slug, name, line, ini, acc, "Mac App Store", "MAC"))
+            continue
         w = [x for x in WEB if x[1] == slug]
         p = [x for x in PRIVATE if x[0] == slug]
         if w:
             _, slug, name, ini, acc, url, line, shot = w[0]
-            print(slug, card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", "WEB"))
+            print(slug, card(slug, name, line, ini, acc, url, f"{SHOTS}/{shot}", "WEB · MAC" if slug == "msrx-pulsenet" else "WEB"))
         elif p:
             slug, name, ini, acc, url, line = p[0]
             print(slug, private_card(slug, name, line, ini, acc, url))
